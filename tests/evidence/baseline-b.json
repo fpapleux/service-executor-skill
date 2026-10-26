@@ -1,0 +1,86 @@
+[
+  {
+    "id": "REQ-EXEC-004.S1",
+    "actions": ["Run the accepted action within R1's current request and resource ownership.", "Capture the actual action result before treating execution as complete.", "Refrain from additional effects outside the accepted action."],
+    "records": ["Retain R1's ownership references and accepted action identity.", "Record execution result and available evidence; release ownership when safe."],
+    "outcome": "Execute the accepted action; success remains dependent on its observed result."
+  },
+  {
+    "id": "REQ-EXEC-004.N1",
+    "actions": ["Stop before using the shared browser.", "Seek the canonical profile identity through an available authoritative configuration or operator clarification.", "Refrain from guessing the profile or claiming an arbitrary substitute resource."],
+    "records": ["Record that canonical profile identification is missing and shared-resource ownership cannot be established."],
+    "outcome": "Blocked pending identification of the shared resource."
+  },
+  {
+    "id": "REQ-EXEC-004.N2",
+    "actions": ["Require exclusive ownership of the same canonical profile before either shared effect.", "Allow only the agent that successfully acquires current resource ownership to proceed; have the other wait.", "Refrain from treating ownership of different requests as permission to use the profile concurrently.", "If no reliable acquisition mechanism is available, stop both effects pending coordination."],
+    "records": ["Record the successful profile owner and its request, or the unresolved contention.", "Retain the other request as waiting for the shared resource."],
+    "outcome": "Serialize profile use; no concurrent shared effect."
+  },
+  {
+    "id": "REQ-EXEC-004.N3",
+    "actions": ["Do not begin the action while resource ownership cannot be read.", "Seek restoration of access to the current ownership record.", "Refrain from assuming the resource is free or replacing the unreadable record to bypass the uncertainty."],
+    "records": ["Record the ownership-read failure and the resulting execution blocker in an available request record."],
+    "outcome": "Blocked until current resource ownership can be verified."
+  },
+  {
+    "id": "REQ-EXEC-004.N4",
+    "actions": ["Reconcile action A using available authoritative outcome evidence before another attempt.", "Preserve A's identity and the uncertainty after disconnect.", "Refrain from resubmitting A or issuing a conflicting effect while its outcome remains unknown.", "If evidence cannot resolve the outcome, escalate the unresolved effect instead of guessing."],
+    "records": ["Record A as submitted with unknown outcome and retain any submission references.", "Record reconciliation evidence and any resulting confirmed outcome."],
+    "outcome": "Await reconciliation; another attempt is not justified by the disconnect alone."
+  },
+  {
+    "id": "REQ-EXEC-004.N5",
+    "actions": ["Check the current ownership and recognize the recorded handover to B.", "Stop A's attempted write or effect.", "Refrain from restoring A's obsolete authority or overwriting B's work."],
+    "records": ["Retain the handover evidence and record the rejected stale-owner attempt through an authorized record path if available."],
+    "outcome": "B retains ownership; A performs no write or effect."
+  },
+  {
+    "id": "REQ-EXEC-004.N6",
+    "actions": ["Use a reliable exclusive request-ownership acquisition mechanism if available.", "Allow only the successful current owner to start or resume R1.", "Have the unsuccessful contender stop and observe the existing request state.", "Refrain from parallel execution or inventing a second R1; stop both if ownership cannot be decided reliably."],
+    "records": ["Record the single current request owner and acquisition result, or the unresolved contention."],
+    "outcome": "One owner executes R1; the other contender performs no duplicate work."
+  },
+  {
+    "id": "REQ-EXEC-005.S1",
+    "actions": ["Retain the task acceptance evidence and reporting acknowledgment.", "Close R1 according to the evidenced task outcome and safely release ownership.", "Refrain from resending the acknowledged report or claiming customer reading from submission acknowledgment."],
+    "records": ["Record acceptance evidence, the actual execution outcome, and acknowledged report submission with its available reference.", "Record completion and safe ownership release."],
+    "outcome": "R1 can finish with its evidenced task result and reporting obligation satisfied by acknowledged submission."
+  },
+  {
+    "id": "REQ-EXEC-005.S2",
+    "actions": ["Pause execution that requires interactive customer login.", "Report the specific intervention needed through the configured reporting route if available.", "Refrain from bypassing login, requesting secret values in records, or claiming completion.", "Resume only after the intervention and current ownership are verified."],
+    "records": ["Record the login blocker, required customer intervention, and actual reporting status.", "Retain R1 as blocked and release ownership only when safe."],
+    "outcome": "Blocked awaiting customer interactive login; notification success depends on actual submission evidence."
+  },
+  {
+    "id": "REQ-EXEC-005.S3",
+    "actions": ["Record the temporary customer-portal reporting failure.", "Execute the accepted and authorized document export while its execution prerequisites remain satisfied.", "Retain the export result and pending communication for later submission when the configured reporter is restored.", "Refrain from inventing another reporting destination or treating the failed communication attempt as successful."],
+    "records": ["Record reporting unavailable and communication pending.", "Record the actual export outcome and its evidence separately from communication status."],
+    "outcome": "Proceed with the executable export; retain its result with reporting pending."
+  },
+  {
+    "id": "REQ-EXEC-005.N1",
+    "actions": ["Identify the missing required recipient configuration before attempting email reporting.", "Seek the authoritative recipient configuration or operator clarification.", "Refrain from guessing a recipient or sending to an alternative address.", "Do not start any execution whose required reporting prerequisite remains unsatisfied."],
+    "records": ["Record the missing recipient configuration and reporting-prerequisite failure."],
+    "outcome": "Reporting is blocked by incomplete configuration; no email is sent."
+  },
+  {
+    "id": "REQ-EXEC-005.N2",
+    "actions": ["Recognize the confirmed report submission for incident I1.", "Preserve the failed execution outcome.", "Refrain from sending the same incident report again solely because execution is still failed."],
+    "records": ["Retain the I1 report acknowledgment and execution failure as separate facts."],
+    "outcome": "Execution remains failed; I1 reporting remains fulfilled with no duplicate submission."
+  },
+  {
+    "id": "REQ-EXEC-005.N3",
+    "actions": ["Reconcile N1 using available submission references or authoritative reporting-service status.", "Refrain from blindly resending while N1 may already have been submitted.", "Retry only after non-submission is established or an available service explicitly guarantees duplicate-safe retry using the same attempt identity.", "Escalate unresolved uncertainty if no reconciliation capability exists."],
+    "records": ["Record N1's timeout and unknown submission outcome, retaining any attempt reference.", "Record reconciliation findings before updating reporting status."],
+    "outcome": "Reporting remains unresolved pending reconciliation; timeout alone does not justify a duplicate report."
+  },
+  {
+    "id": "REQ-EXEC-005.N4",
+    "actions": ["Load R1's retained execution evidence and pending communication.", "Acquire current request ownership and any resource ownership required for reporting.", "Verify the pending communication has no unresolved prior submission, then submit it through the restored configured service and capture the acknowledgment.", "Refrain from rerunning the confirmed execution.", "Safely release ownership after recording the reporting outcome."],
+    "records": ["Retain confirmed execution unchanged.", "Record resumed ownership and the report attempt, acknowledgment or actual failure, then safe release."],
+    "outcome": "Continue the pending communication only; close R1 once reporting is confirmed, otherwise retain its actual unresolved status."
+  }
+]

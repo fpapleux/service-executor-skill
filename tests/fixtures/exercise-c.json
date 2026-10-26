@@ -1,0 +1,72 @@
+[
+  {
+    "id": "REQ-EXEC-006.S1",
+    "given": "an operator wants document-export rather than Facebook posting",
+    "when": "the bundled customization guidance is followed"
+  },
+  {
+    "id": "REQ-EXEC-006.N1",
+    "given": "the operator's proposed template lacks decision constraints",
+    "when": "the customization checklist is applied"
+  },
+  {
+    "id": "REQ-EXEC-006.N2",
+    "given": "an executor identifies an improvement, including one approved only in principle",
+    "when": "it handles that improvement"
+  },
+  {
+    "id": "REQ-EXEC-006.N3",
+    "given": "a required bundled customization resource is missing",
+    "when": "an operator follows the guide"
+  },
+  {
+    "id": "REQ-EXEC-007.S1",
+    "given": "Example Page is unambiguously resolved in the owned-Page list as PAGE-A, with an exact approved caption, one image, placement, eligible timing and publication authority",
+    "when": "the template runs"
+  },
+  {
+    "id": "REQ-EXEC-007.S2",
+    "given": "the template explicitly authorizes a supported Chrome profile whose upload prerequisites are satisfied, and internal iab is unavailable",
+    "when": "browser prerequisites are evaluated"
+  },
+  {
+    "id": "REQ-EXEC-007.S3",
+    "given": "local Facebook reporting configuration selects an authorized customer portal with request-specific receipt acknowledgement",
+    "when": "an outcome is reported"
+  },
+  {
+    "id": "REQ-EXEC-007.N1",
+    "given": "the final caption is absent rather than explicitly supplied",
+    "when": "request validation runs"
+  },
+  {
+    "id": "REQ-EXEC-007.N2",
+    "given": "the approved destination is PAGE-A but the final composer acts as PAGE-B",
+    "when": "the pre-submit check runs"
+  },
+  {
+    "id": "REQ-EXEC-007.N3",
+    "given": "the configured browser rejects local-file upload because its required file permission is disabled",
+    "when": "the upload prerequisite is checked or upload fails"
+  },
+  {
+    "id": "REQ-EXEC-007.N4",
+    "given": "the post has confirmed native acceptance but the configured customer communication service is unavailable",
+    "when": "completion reporting runs"
+  },
+  {
+    "id": "REQ-EXEC-007.N5",
+    "given": "a newly requested scheduling instant is earlier than the observed current instant",
+    "when": "validation checks timing"
+  },
+  {
+    "id": "REQ-EXEC-007.N6",
+    "given": "the request specifies a future instant and no existing authorized tool can establish that scheduled action",
+    "when": "scheduling capability is validated"
+  },
+  {
+    "id": "REQ-EXEC-007.B1",
+    "given": "the request authorizes one feed image post and zero follow-up destinations or comments",
+    "when": "the native draft is inspected and submitted"
+  }
+]

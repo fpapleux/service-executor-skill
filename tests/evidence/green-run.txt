@@ -1,0 +1,57 @@
+test_REQ_EXEC_001_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_B1) ... ok
+test_REQ_EXEC_001_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N1) ... ok
+test_REQ_EXEC_001_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N2) ... ok
+test_REQ_EXEC_001_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N3) ... ok
+test_REQ_EXEC_001_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_S1) ... ok
+test_REQ_EXEC_002_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N1) ... ok
+test_REQ_EXEC_002_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N2) ... ok
+test_REQ_EXEC_002_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N3) ... ok
+test_REQ_EXEC_002_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N4) ... ok
+test_REQ_EXEC_002_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N5) ... ok
+test_REQ_EXEC_002_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_S1) ... ok
+test_REQ_EXEC_003_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_B1) ... ok
+test_REQ_EXEC_003_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N1) ... ok
+test_REQ_EXEC_003_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N2) ... ok
+test_REQ_EXEC_003_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N3) ... ok
+test_REQ_EXEC_003_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_S1) ... ok
+test_REQ_EXEC_004_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N1) ... ok
+test_REQ_EXEC_004_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N2) ... ok
+test_REQ_EXEC_004_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N3) ... ok
+test_REQ_EXEC_004_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N4) ... ok
+test_REQ_EXEC_004_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N5) ... ok
+test_REQ_EXEC_004_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N6) ... ok
+test_REQ_EXEC_004_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_S1) ... ok
+test_REQ_EXEC_005_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N1) ... ok
+test_REQ_EXEC_005_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N2) ... ok
+test_REQ_EXEC_005_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N3) ... ok
+test_REQ_EXEC_005_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N4) ... ok
+test_REQ_EXEC_005_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S1) ... ok
+test_REQ_EXEC_005_S2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S2) ... ok
+test_REQ_EXEC_005_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S3) ... ok
+test_REQ_EXEC_006_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N1) ... ok
+test_REQ_EXEC_006_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N2) ... ok
+test_REQ_EXEC_006_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N3) ... ok
+test_REQ_EXEC_006_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_S1) ... ok
+test_REQ_EXEC_007_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_B1) ... ok
+test_REQ_EXEC_007_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N1) ... ok
+test_REQ_EXEC_007_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N2) ... ok
+test_REQ_EXEC_007_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N3) ... ok
+test_REQ_EXEC_007_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N4) ... ok
+test_REQ_EXEC_007_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N5) ... ok
+test_REQ_EXEC_007_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N6) ... ok
+test_REQ_EXEC_007_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S1) ... ok
+test_REQ_EXEC_007_S2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S2) ... ok
+test_REQ_EXEC_007_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S3) ... ok
+test_two_processes_cannot_own_same_stable_lock (test_ownership.OwnershipPrimitiveTests.test_two_processes_cannot_own_same_stable_lock) ... ok
+test_actual_local_instruction_closure (test_package.PackageTests.test_actual_local_instruction_closure) ... ok
+test_dependency_checker_rejects_escaping_symlink (test_package.PackageTests.test_dependency_checker_rejects_escaping_symlink) ... ok
+test_dependency_checker_rejects_missing_file (test_package.PackageTests.test_dependency_checker_rejects_missing_file) ... ok
+test_fixture_inventory_covers_approved_scenarios (test_package.PackageTests.test_fixture_inventory_covers_approved_scenarios) ... ok
+test_generic_files_have_no_service_or_provider_defaults (test_package.PackageTests.test_generic_files_have_no_service_or_provider_defaults) ... ok
+test_instruction_identity_changes_with_contents (test_package.PackageTests.test_instruction_identity_changes_with_contents) ... ok
+test_required_runtime_artifacts_exist (test_package.PackageTests.test_required_runtime_artifacts_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.286s
+
+OK

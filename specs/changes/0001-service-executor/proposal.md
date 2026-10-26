@@ -4,7 +4,7 @@ title: Self-contained four-stage service executor and Facebook template
 type: feature
 size: standard
 assurance: internal
-status: planned
+status: implementing
 capabilities: service-executor=EXEC
 created: 2026-10-26
 spec_hash: e301df40c777

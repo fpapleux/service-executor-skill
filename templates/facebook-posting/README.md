@@ -1,16 +1,18 @@
-# Facebook posting injections
+# Facebook posting
 
-Design input for the first self-contained service template; not yet an executable or deployed template.
+Self-contained injections for an exact authorized owned-Page image post. Use with the generic service-executor lifecycle. Availability of this public template grants no account access or publication authority.
 
-| Stage | Facebook-specific content to supply |
+## Instruction declaration
+
+| Injection | Local path |
 | --- | --- |
-| Validate | Exact owned Page, content and media, placement, timing, browser/upload prerequisites and reporting configuration |
-| Accept/reject | Publication authority, supported native operation, verified Page identity, dependency results and shared-resource ownership |
-| Execute | Local Facebook procedure for composing, inspecting and submitting the exact authorized post once |
-| Report | Facebook result details and post reference when available; the adopter's communication channel and procedure implementing the generic customer communication duty |
+| Validate | [validate.md](validate.md) |
+| Accept/reject | [decision.md](decision.md) |
+| Execute | [execute.md](execute.md) |
+| Report | [report.md](report.md) |
 
-The template must contain its required domain guidance locally. It must not load a shared Facebook, campaign or social-execution skill. Specific accounts, credentials, recipients, media and requests remain deployment inputs.
+Supporting tool/configuration contract: [TOOLS.example.md](TOOLS.example.md). An operator supplies actual effective configuration privately and explicitly selects it; add any local authored instructions it needs to this declaration. Those instructions must remain inside the selected template and be included in the bound closure. The example's unset values are not operational settings.
 
-Keeping the customer informed and continuing otherwise authorized work during a temporary communication outage are generic executor responsibilities. This public template does not require email or a particular communication provider.
+Request inputs: exact final caption (absence differs from an explicit value), supplied image reference, exact owned Page identity, feed placement, immediate or explicit scheduled timing and publication authority. Preserve exact copy/media; no assumed campaign, square crop, URL comment, personal share, Story, crosspost or boost.
 
-No additional comments, shares, crossposts, boosting or other distribution are implied by a posting request. An executing agent cannot change this template or its own process.
+The local configuration names the authorized supported browser/backend/profile, canonical shared-profile resource key, tool access/prerequisites and the adopter's customer communication channel/procedure. No particular browser backend or communication provider is mandatory. Actual login/upload/scheduling capability must be observed. Customer communication policy comes from the generic lifecycle; the report injection supplies Facebook result details and the selected route.

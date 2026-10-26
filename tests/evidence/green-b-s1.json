@@ -1,0 +1,23 @@
+[
+  {
+    "id": "REQ-EXEC-004.S1",
+    "actions": [
+      "Retain the supplied current request/resource ownership and absence of unresolved effects. Verify live lock-holding sessions and current owner token before each write/effect, check exact acceptance and unfinished prerequisites, and persist target/action/attempt intent before performing the injected accepted action once.",
+      "Record attributable execution observations. A successful command issuance is not completion: use observed task acceptance/completion evidence; record a failure without automatic retry, or an unknown outcome with repeat/dependency holds if that is observed.",
+      "Invoke the report injection for actual completion or failure with request identity, confirmed effects, outstanding work and required intervention; record reporting separately. A communication outage retains its obligation without replaying execution.",
+      "At action close-out, establish that the tool operation has completed or use existing authorized controls to stop it and verify it stopped. Do not infer safe release from elapsed time or a dead local process.",
+      "When no former-owner operation can still mutate the shared resource, append a safe release/handover observation and pending next action under current ownership, then release the shared-resource lock and invalidate its ownership token. Retain stable lock files; do not unlink/recreate them.",
+      "Release the request lock safely when this executor no longer needs to protect request writes, preserving durable history and pending communication. A later continuation must reacquire ownership, read current history and use a fresh current owner token.",
+      "If operation quiescence cannot be established, hold the resource, report the uncertainty and record the reconciliation/stop evidence needed for safe release. Never assert that a lock becoming available settles an old remote operation.",
+      "After safe resource release, another independently accepted request may acquire the same canonical resource lock and execute its own pending action under its own request ownership, intent and checks. Do not merge journals, replay this request or impose a completed request outcome as an unrelated-request blocker. Requests using independent resources remain independently executable."
+    ],
+    "records": [
+      "Preserve original inputs, authority, complete instruction/configuration binding and affirmative exact-scope acceptance; preserve the supplied ownership and no-unresolved-effect observations.",
+      "Append action intent before submission, target/action/attempt identity, actual attributable execution evidence, execution outcome and next action with event ID, observed time, request ID and current owner token.",
+      "Retain report content, incident/obligation and attempt identity, native submission evidence and pending/unknown/submitted communication status separately from execution.",
+      "Record operation completion or verified stop evidence, safe resource release/handover and request ownership disposition before relinquishing write authority. Preserve any unresolved outcome, repeat/dependency hold or pending communication across release.",
+      "Keep other requests independent: their own acceptance, ownership, resource-acquisition observations, action intent, results and journals; no modification of their records by this executor."
+    ],
+    "outcome": "The accepted action runs exclusively and closes according to observed evidence. Confirmed operation quiescence permits safe resource release so independent requests can acquire it; uncertainty retains the resource hold and escalation. Reporting obligations remain distinct and discoverable."
+  }
+]

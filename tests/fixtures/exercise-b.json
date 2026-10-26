@@ -1,0 +1,72 @@
+[
+  {
+    "id": "REQ-EXEC-004.S1",
+    "given": "R1 has current request and resource ownership with no unresolved effect",
+    "when": "its accepted action runs"
+  },
+  {
+    "id": "REQ-EXEC-004.N1",
+    "given": "a shared browser is required but its canonical profile resource cannot be identified",
+    "when": "ownership is evaluated"
+  },
+  {
+    "id": "REQ-EXEC-004.N2",
+    "given": "agents A and B own different requests that require the same profile",
+    "when": "both seek the shared effect"
+  },
+  {
+    "id": "REQ-EXEC-004.N3",
+    "given": "the current shared-resource ownership record is unreadable",
+    "when": "an action would begin"
+  },
+  {
+    "id": "REQ-EXEC-004.N4",
+    "given": "R1 submitted action A but its outcome is unknown after disconnect",
+    "when": "a continuation considers another attempt"
+  },
+  {
+    "id": "REQ-EXEC-004.N5",
+    "given": "old agent A returns after a recorded safe handover to B",
+    "when": "A attempts a write or effect"
+  },
+  {
+    "id": "REQ-EXEC-004.N6",
+    "given": "agents A and B both attempt to start or resume the same request R1",
+    "when": "they acquire request ownership"
+  },
+  {
+    "id": "REQ-EXEC-005.S1",
+    "given": "R1's task acceptance is evidenced and its configured report route acknowledges submission",
+    "when": "R1 finishes"
+  },
+  {
+    "id": "REQ-EXEC-005.S2",
+    "given": "R1 is blocked because its configured account requires the customer's interactive login",
+    "when": "that intervention blocker is recorded"
+  },
+  {
+    "id": "REQ-EXEC-005.S3",
+    "given": "document-export is accepted, authorized and executable, but its configured customer-portal reporter is temporarily unavailable before execution",
+    "when": "that communication attempt fails"
+  },
+  {
+    "id": "REQ-EXEC-005.N1",
+    "given": "an email-reporting service lacks its required recipient configuration",
+    "when": "its reporting prerequisites are checked"
+  },
+  {
+    "id": "REQ-EXEC-005.N2",
+    "given": "R1 has a confirmed report submission for incident I1 and execution remains failed",
+    "when": "reporting is revisited"
+  },
+  {
+    "id": "REQ-EXEC-005.N3",
+    "given": "report attempt N1 times out with unknown submission outcome",
+    "when": "reporting continues"
+  },
+  {
+    "id": "REQ-EXEC-005.N4",
+    "given": "R1 has confirmed execution and retained pending communication after an outage, with safe recorded ownership release",
+    "when": "a fresh session continues R1 after the configured communication service is restored"
+  }
+]

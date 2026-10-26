@@ -1,0 +1,182 @@
+[
+  {
+    "id": "REQ-EXEC-004.S1",
+    "actions": [
+      "Verify the live request/resource locks and current owner token immediately before the write/effect; retain the supplied current ownership and absence of unresolved effects.",
+      "Verify the recorded exact acceptance and pending prerequisites, persist an action intent with target/action/attempt identity, then perform the accepted injected action once.",
+      "Record the attributable result; report completion only if evidenced, or failure/unknown and corresponding holds if that is observed."
+    ],
+    "records": [
+      "Keep original inputs, authority, instruction/configuration binding and acceptance.",
+      "Append intent before submission, then actual observations/evidence and next action under the current owner token; keep execution and reporting events separate."
+    ],
+    "outcome": "Authorized action proceeds under exclusive ownership; its actual observed result determines the execution outcome."
+  },
+  {
+    "id": "REQ-EXEC-004.N1",
+    "actions": [
+      "Report resource-unresolved and hold the shared browser effect.",
+      "Resolve the canonical actual profile/session from authoritative configuration; do not invent a per-Page resource key."
+    ],
+    "records": [
+      "Under verified request ownership, retain the unresolved profile identity, affected action, blocker report obligation and next action to resolve identity and obtain resource ownership."
+    ],
+    "outcome": "Blocked on canonical shared-resource identification; no shared effect."
+  },
+  {
+    "id": "REQ-EXEC-004.N2",
+    "actions": [
+      "Use the same canonical profile lock domain for both requests; each retains its own request lock and journal.",
+      "Only the executor that obtains demonstrable live exclusive profile ownership may submit its accepted action after persisting intent.",
+      "The other records a wait/blocker only in its own request, promptly reports it and releases safely without waiting while holding another contested resource.",
+      "Handover only after the former operation completes or is verifiably stopped; lock availability alone does not settle remote operations."
+    ],
+    "records": [
+      "Preserve separate original inputs, acceptances, owner tokens, action attempts and resource-contention observations for A and B.",
+      "Record the winning acquisition and losing wait without asserting which wins; preserve any resulting uncertain effect across handover."
+    ],
+    "outcome": "Shared effects are serialized by actual profile ownership; no concurrent shared-profile action or merged request history."
+  },
+  {
+    "id": "REQ-EXEC-004.N3",
+    "actions": [
+      "Report ownership-unavailable and hold the action.",
+      "Do not replace unreadable ownership evidence, assume expiry, or acquire substitute ownership based on that assumption."
+    ],
+    "records": [
+      "In the executor own request where its ownership is verifiable, retain the unreadable resource evidence and operation, blocked effect, report obligation and next action to restore trustworthy ownership evidence.",
+      "If request storage/ownership also cannot be verified, use the available authorized requester route without inventing durable writes."
+    ],
+    "outcome": "Blocked; no shared effect until ownership is verifiable."
+  },
+  {
+    "id": "REQ-EXEC-004.N4",
+    "actions": [
+      "Retain action A as unknown; hold another attempt and all dependent effects.",
+      "Recover the original attempt and reconcile attributable native evidence matching target, content, attempt and available identifiers.",
+      "If acceptance is confirmed, retain the effect and do not repeat. If positive no-effect evidence is obtained, renew authority/prerequisite checks and current ownership, record the next action and persist a new intent before a new attempt.",
+      "If evidence remains inconclusive, retain the hold and report the uncertainty; disconnect or an empty search is not proof of no effect."
+    ],
+    "records": [
+      "Preserve original intent, attempt identity, disconnect observations and unknown outcome; append reconciliation evidence and next action without rewriting history."
+    ],
+    "outcome": "No blind retry; further action depends on authoritative reconciliation."
+  },
+  {
+    "id": "REQ-EXEC-004.N5",
+    "actions": [
+      "Reject A use of its old owner token; A performs no write or effect after safe handover to B.",
+      "If A later seeks ownership, require fresh exclusive acquisition after B safely releases, then read the current history and obtain a current owner token before any protected operation."
+    ],
+    "records": [
+      "Preserve the safe handover and B current ownership; A may report its ownership conflict through the available requester route without writing the protected request.",
+      "Retain any unresolved outcomes and pending actions across subsequent acquisition."
+    ],
+    "outcome": "Stale owner A is fenced by the cooperative ownership checks; B remains the valid current owner."
+  },
+  {
+    "id": "REQ-EXEC-004.N6",
+    "actions": [
+      "Both contend for the same stable OS-backed request lock before initialization or writes; never unlink/recreate the lock.",
+      "Only the live exclusive winner sets a current owner token, reads existing history for resume and proceeds with applicable pending work.",
+      "The loser reports ownership conflict through the requester route and does not write R1, create duplicate acceptance or allocate a replacement resume request."
+    ],
+    "records": [
+      "Winner preserves R1 original identity, inputs, binding, acceptance and prior effects, appending events only under current ownership.",
+      "Loser invents no request journal update; retain the conflict through its authorized reporting route."
+    ],
+    "outcome": "Exactly one current writer/executor for R1; ownership winner is not assumed in advance."
+  },
+  {
+    "id": "REQ-EXEC-005.S1",
+    "actions": [
+      "Invoke the configured report injection with R1 identity, actual outcome/reason, confirmed effects, outstanding work and any required intervention.",
+      "Preserve the supplied submission acknowledgement and do not resend the same incident.",
+      "Do not equate task acceptance with successful execution, or report submission with delivery or reading."
+    ],
+    "records": [
+      "Keep task acceptance evidence and actual execution observations separately from report content, obligation/incident identity, attempt and native submission acknowledgement.",
+      "Mark communication submitted; execution status reflects its own evidence."
+    ],
+    "outcome": "Report submission confirmed; delivery/reading are unproved and execution is reported truthfully from its evidence."
+  },
+  {
+    "id": "REQ-EXEC-005.S2",
+    "actions": [
+      "Hold work that requires the configured account login and promptly invoke the report injection for customer intervention.",
+      "Identify the required interactive login and the blocked pending action; do not invent account access or bypass login.",
+      "After intervention, revalidate unfinished prerequisites and current ownership before any accepted pending action."
+    ],
+    "records": [
+      "Retain R1 original inputs, confirmed earlier effects, login blocker, report content/obligation/attempt and actual submission outcome.",
+      "Next action is customer interactive login followed by prerequisite revalidation; communication remains independently pending/unknown/submitted as observed."
+    ],
+    "outcome": "Execution blocked on customer intervention and blocker promptly reported or retained as an outstanding report obligation."
+  },
+  {
+    "id": "REQ-EXEC-005.S3",
+    "actions": [
+      "Record the configured customer-portal communication outage and retain its pending report obligation; expose the gap through any available authorized requester route.",
+      "Continue the accepted, authorized, executable document export under current ownership and persisted pre-action intent; do not add a reporting-availability acceptance gate.",
+      "Record export observations and invoke the configured reporting procedure for its outcome; preserve outstanding communication until the portal can be used.",
+      "Do not substitute a channel, recipient or identity without authority or diagnose missing credentials from temporary unavailability."
+    ],
+    "records": [
+      "Keep acceptance, export intent/attempt and actual execution result distinct from failed communication attempt and pending obligation/content.",
+      "Record restored-portal reporting as the next communication action; do not infer export success merely because work was executable."
+    ],
+    "outcome": "Independent export work continues; communication outage remains visible and pending without a fully-reported success claim."
+  },
+  {
+    "id": "REQ-EXEC-005.N1",
+    "actions": [
+      "Fail validation with missing-report-configuration; do not guess a recipient, identity or alternate report injection.",
+      "Apply the decision injection to record the configuration blocker, hold Execute and explain it through an available authorized requester route."
+    ],
+    "records": [
+      "Preserve the absent required recipient configuration distinctly from an explicit empty value and from a temporary channel outage.",
+      "Retain validation findings, truthful decision, reporting gap and next action to obtain required configuration; no acceptance or task submission is invented."
+    ],
+    "outcome": "Validation blocked by missing required recipient configuration; no execution."
+  },
+  {
+    "id": "REQ-EXEC-005.N2",
+    "actions": [
+      "Retain the confirmed report submission for incident I1 and do not resend it merely because execution remains failed.",
+      "Report a genuinely new incident only if the injected procedure calls for it; do not invent follow-up work or automatic task retry."
+    ],
+    "records": [
+      "Preserve I1 content, obligation/attempt identity and submission acknowledgement, alongside the separate failed execution evidence and existing next action.",
+      "Do not mark submission as delivered/read or change the failed execution status."
+    ],
+    "outcome": "I1 remains submitted and execution remains failed; no duplicate report or business retry."
+  },
+  {
+    "id": "REQ-EXEC-005.N3",
+    "actions": [
+      "Retain report attempt N1 as unknown and hold another send.",
+      "Reconcile authoritative native submission evidence for the same incident, content, attempt and available identifiers.",
+      "If accepted, retain acknowledgement without resend. Permit a new send only on positive no-effect evidence with renewed checks, ownership and recorded next action.",
+      "If uncertainty persists, retain the obligation and expose the gap through an available authorized requester route without substituting a destination."
+    ],
+    "records": [
+      "Keep the original incident/obligation, N1 attempt, content and timeout evidence unchanged; append reconciliation observations and next action.",
+      "Communication is unknown until resolved; execution evidence and confirmed business effects remain independent."
+    ],
+    "outcome": "Unknown send is reconciled before any repeat; no blind resend or delivery claim."
+  },
+  {
+    "id": "REQ-EXEC-005.N4",
+    "actions": [
+      "Resume the explicit existing R1 under fresh current request ownership after its safe recorded release; recover original inputs, authority, complete bound instruction/configuration identities, journal and pending communication.",
+      "Verify the retained binding and recover only pending communication; do not rebind to newer instructions or repeat the confirmed execution.",
+      "Reconcile any previously unknown report attempt before sending; for the retained unsent pending obligation, persist report intent and submit through the restored configured route.",
+      "Record the native reporting outcome; do not infer delivery or reading from acknowledgement."
+    ],
+    "records": [
+      "Preserve confirmed execution, safe ownership release/history, original binding and prior reporting observations.",
+      "Append new ownership, report obligation/content/attempt, intent and native submission evidence or truthful pending/unknown status; next action follows that outcome."
+    ],
+    "outcome": "Reporting-only recovery of R1; confirmed business execution is never replayed and communication closes only to the extent evidenced."
+  }
+]

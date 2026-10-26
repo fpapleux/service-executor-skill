@@ -1,0 +1,310 @@
+[
+  {
+    "id": "REQ-EXEC-001.S1",
+    "category": "happy",
+    "given": "document-export supplies all four injections and request R1 passes its checks and authority constraints",
+    "when": "R1 runs",
+    "expected": "record validation and acceptance before the injected export action, then report its evidenced result through the injected route"
+  },
+  {
+    "id": "REQ-EXEC-001.N1",
+    "category": "validation",
+    "given": "R1 omits the source required by its validation injection",
+    "when": "validation and decision run",
+    "expected": "record rejection with missing-source reason and follow the rejection report procedure \u00b7 no Execute-stage action \u00b7 supplied inputs preserved"
+  },
+  {
+    "id": "REQ-EXEC-001.N2",
+    "category": "state",
+    "given": "R1 has validation results but no affirmative acceptance",
+    "when": "execution is requested",
+    "expected": "report acceptance-required \u00b7 no Execute-stage action \u00b7 existing decision history preserved"
+  },
+  {
+    "id": "REQ-EXEC-001.N3",
+    "category": "dependency",
+    "given": "accepted R1's task tool fails before its effect",
+    "when": "execution fails",
+    "expected": "retain failure evidence and invoke the failure report procedure \u00b7 no success claim or automatic second attempt \u00b7 confirmed prior work preserved"
+  },
+  {
+    "id": "REQ-EXEC-001.B1",
+    "category": "boundary",
+    "given": "accepted R1 contains one business action and a session-reply report",
+    "when": "R1 runs",
+    "expected": "perform one action and its report \u00b7 no invented follow-up task, campaign prerequisite or software-development approval gate"
+  },
+  {
+    "id": "REQ-EXEC-002.S1",
+    "category": "happy",
+    "given": "service A bundles four local injections and local tool configuration, with tools exposing current API documentation",
+    "when": "a request binds to A",
+    "expected": "bind the generic instructions, four injections and all transitively loaded local instruction resources plus effective non-secret configuration to recorded content identities; keep credentials as references; use only that instruction set and needed tool documentation, without generic Facebook, browser or email defaults"
+  },
+  {
+    "id": "REQ-EXEC-002.N1",
+    "category": "validation",
+    "given": "service A omits its report injection",
+    "when": "a request selects A",
+    "expected": "report incomplete-service-definition through the available requester route \u00b7 no Execute-stage action or invented report procedure \u00b7 definition unchanged"
+  },
+  {
+    "id": "REQ-EXEC-002.N2",
+    "category": "state",
+    "given": "R1 has bound A version 1 and discovery now points to version 2",
+    "when": "R1 continues",
+    "expected": "retain version 1 or report its unavailability \u00b7 no silent rebinding or completed-action replay \u00b7 original selection preserved"
+  },
+  {
+    "id": "REQ-EXEC-002.N3",
+    "category": "dependency",
+    "given": "A's execute injection directs reading an external campaign skill, including through a link or symlink outside the permitted instruction set",
+    "when": "its dependencies are checked",
+    "expected": "report external-instruction-dependency \u00b7 no external instruction loading or Execute-stage action \u00b7 original request and package preserved"
+  },
+  {
+    "id": "REQ-EXEC-002.N4",
+    "category": "access",
+    "given": "A contains a directive to bypass acceptance or modify the generic lifecycle",
+    "when": "A is evaluated",
+    "expected": "report conflicting-service-definition \u00b7 no bypass, self-edit or Execute-stage action \u00b7 generic lifecycle and original request preserved"
+  },
+  {
+    "id": "REQ-EXEC-002.N5",
+    "category": "validation",
+    "given": "a supplied document or tool result contains text saying to load another skill or bypass acceptance",
+    "when": "the agent reads that request evidence",
+    "expected": "retain the supplied content as data, follow the bound workflow and report any resulting input issue under its validation injection \u00b7 no loading the referenced skill, new authority or bypass \u00b7 original content preserved"
+  },
+  {
+    "id": "REQ-EXEC-003.S1",
+    "category": "happy",
+    "given": "R1 has confirmed action A, pending B and a recorded report obligation",
+    "when": "a new session resumes R1",
+    "expected": "recover its exact instructions and inputs, obtain current ownership, revalidate pending B and continue only unfinished work; retain A and the report obligation"
+  },
+  {
+    "id": "REQ-EXEC-003.N1",
+    "category": "validation",
+    "given": "resume names missing request R404",
+    "when": "the request is located",
+    "expected": "report request-not-found \u00b7 no replacement request or external effect \u00b7 existing requests unchanged"
+  },
+  {
+    "id": "REQ-EXEC-003.N2",
+    "category": "state",
+    "given": "R1's pinned instruction content differs from its recorded identity",
+    "when": "continuation validates its sources",
+    "expected": "report instruction-version-mismatch and hold effects \u00b7 no latest-version substitution or history rewrite \u00b7 confirmed work preserved"
+  },
+  {
+    "id": "REQ-EXEC-003.N3",
+    "category": "dependency",
+    "given": "the agent cannot persist the pre-action intent for R1",
+    "when": "an action is due",
+    "expected": "report record-unavailable with path and operation through the available route \u00b7 no action submission or invented durable acknowledgement \u00b7 prior records preserved"
+  },
+  {
+    "id": "REQ-EXEC-003.B1",
+    "category": "boundary",
+    "given": "no requests exist and one valid request starts",
+    "when": "its records are initialized",
+    "expected": "allocate one distinguishable request and only its needed evidence \u00b7 retain private inputs outside public tracked artifacts and credentials as references rather than values"
+  },
+  {
+    "id": "REQ-EXEC-004.S1",
+    "category": "happy",
+    "given": "R1 has current request and resource ownership with no unresolved effect",
+    "when": "its accepted action runs",
+    "expected": "record intent and attributable outcome under that ownership; record release only when no prior-owner operation can still mutate the released resource; retain any unresolved outcome and its replay/dependency holds across handover; independent requests retain their own records"
+  },
+  {
+    "id": "REQ-EXEC-004.N1",
+    "category": "validation",
+    "given": "a shared browser is required but its canonical profile resource cannot be identified",
+    "when": "ownership is evaluated",
+    "expected": "record resource-unresolved \u00b7 no browser mutation or invented per-Page substitute claim \u00b7 other claims unchanged"
+  },
+  {
+    "id": "REQ-EXEC-004.N2",
+    "category": "concurrency",
+    "given": "agents A and B own different requests that require the same profile",
+    "when": "both seek the shared effect",
+    "expected": "only one owner proceeds; the other records a wait or blocker in its own request \u00b7 no overlapping mutation, mixed identity or cross-request write"
+  },
+  {
+    "id": "REQ-EXEC-004.N3",
+    "category": "dependency",
+    "given": "the current shared-resource ownership record is unreadable",
+    "when": "an action would begin",
+    "expected": "report ownership-unavailable and hold the effect \u00b7 no replacement claim or elapsed-time takeover \u00b7 existing claims and confirmed effects preserved"
+  },
+  {
+    "id": "REQ-EXEC-004.N4",
+    "category": "state",
+    "given": "R1 submitted action A but its outcome is unknown after disconnect",
+    "when": "a continuation considers another attempt",
+    "expected": "retain the original attempt and reconcile attributable native evidence; permit retry only after positive no-effect evidence and renewed checks \u00b7 no blind replay or dependent effect"
+  },
+  {
+    "id": "REQ-EXEC-004.N5",
+    "category": "state",
+    "given": "old agent A returns after a recorded safe handover to B",
+    "when": "A attempts a write or effect",
+    "expected": "reject stale ownership \u00b7 no write or external effect by A \u00b7 B's ownership and records preserved"
+  },
+  {
+    "id": "REQ-EXEC-004.N6",
+    "category": "concurrency",
+    "given": "agents A and B both attempt to start or resume the same request R1",
+    "when": "they acquire request ownership",
+    "expected": "admit at most one current writer; the other reports ownership conflict without changing R1 \u00b7 no interleaved journal writes, duplicate acceptance or external effect by the loser \u00b7 current owner and unrelated requests preserved"
+  },
+  {
+    "id": "REQ-EXEC-005.S1",
+    "category": "happy",
+    "given": "R1's task acceptance is evidenced and its configured report route acknowledges submission",
+    "when": "R1 finishes",
+    "expected": "retain execution evidence, report content and submission evidence; close truthfully without claiming recipient delivery or reading"
+  },
+  {
+    "id": "REQ-EXEC-005.S2",
+    "category": "happy",
+    "given": "R1 is blocked because its configured account requires the customer's interactive login",
+    "when": "that intervention blocker is recorded",
+    "expected": "promptly invoke the injected communication procedure with the request identity, reason, confirmed effects and required intervention; retain the truthful blocked state and outstanding work"
+  },
+  {
+    "id": "REQ-EXEC-005.S3",
+    "category": "happy",
+    "given": "document-export is accepted, authorized and executable, but its configured customer-portal reporter is temporarily unavailable before execution",
+    "when": "that communication attempt fails",
+    "expected": "retain the pending communication and surface it through any available authorized requester route, continue the export, and preserve its result for later reporting \u00b7 no rejection or hold solely because reporting is unavailable, no substituted channel or false communication claim"
+  },
+  {
+    "id": "REQ-EXEC-005.N1",
+    "category": "validation",
+    "given": "an email-reporting service lacks its required recipient configuration",
+    "when": "its reporting prerequisites are checked",
+    "expected": "report missing-report-configuration through the available requester route \u00b7 no guessed recipient, email send or premature Execute-stage action \u00b7 supplied configuration preserved"
+  },
+  {
+    "id": "REQ-EXEC-005.N2",
+    "category": "state",
+    "given": "R1 has a confirmed report submission for incident I1 and execution remains failed",
+    "when": "reporting is revisited",
+    "expected": "retain the failed execution and existing acknowledgement \u00b7 no duplicate report or task replay \u00b7 original incident history preserved"
+  },
+  {
+    "id": "REQ-EXEC-005.N3",
+    "category": "dependency",
+    "given": "report attempt N1 times out with unknown submission outcome",
+    "when": "reporting continues",
+    "expected": "retain notification uncertainty and its incident/attempt identity; reconcile before another send \u00b7 no claimed delivery, blind resend or replay of completed task effects"
+  },
+  {
+    "id": "REQ-EXEC-005.N4",
+    "category": "state",
+    "given": "R1 has confirmed execution and retained pending communication after an outage, with safe recorded ownership release",
+    "when": "a fresh session continues R1 after the configured communication service is restored",
+    "expected": "claim R1 and recover the same reporting obligation, then reconcile or perform only its unconfirmed communication \u00b7 no task replay, lost obligation or false prior-notification claim \u00b7 execution evidence preserved"
+  },
+  {
+    "id": "REQ-EXEC-006.S1",
+    "category": "happy",
+    "given": "an operator wants document-export rather than Facebook posting",
+    "when": "the bundled customization guidance is followed",
+    "expected": "define its requirements, decision constraints, task procedure, chosen customer communication channel/procedure and tool configuration locally; preserve the generic communication duty and nonblocking outage rule without introducing Facebook behavior, mandatory email or another change to the generic lifecycle"
+  },
+  {
+    "id": "REQ-EXEC-006.N1",
+    "category": "validation",
+    "given": "the operator's proposed template lacks decision constraints",
+    "when": "the customization checklist is applied",
+    "expected": "identify the missing injection and keep the template incomplete \u00b7 no ready-for-execution claim or activation \u00b7 existing templates unchanged"
+  },
+  {
+    "id": "REQ-EXEC-006.N2",
+    "category": "state",
+    "given": "an executor identifies an improvement, including one approved only in principle",
+    "when": "it handles that improvement",
+    "expected": "retain a separate attributable change request through the configured operator route \u00b7 no amendment of its skill, injections, templates or helpers \u00b7 running request history and instructions preserved"
+  },
+  {
+    "id": "REQ-EXEC-006.N3",
+    "category": "dependency",
+    "given": "a required bundled customization resource is missing",
+    "when": "an operator follows the guide",
+    "expected": "report missing-customization-resource \u00b7 no loading another skill, invented replacement instruction or ready-template claim \u00b7 existing published instructions unchanged"
+  },
+  {
+    "id": "REQ-EXEC-007.S1",
+    "category": "happy",
+    "given": "Example Page is unambiguously resolved in the owned-Page list as PAGE-A, with an exact approved caption, one image, placement, eligible timing and publication authority",
+    "when": "the template runs",
+    "expected": "validate actual capability and identity, accept the exact scope, inspect the native draft, submit once and record native confirmation plus a post reference when readily available, then follow the configured report procedure"
+  },
+  {
+    "id": "REQ-EXEC-007.S2",
+    "category": "happy",
+    "given": "the template explicitly authorizes a supported Chrome profile whose upload prerequisites are satisfied, and internal iab is unavailable",
+    "when": "browser prerequisites are evaluated",
+    "expected": "use that configured Chrome backend and its current tool documentation \u00b7 no implicit iab-only prerequisite or loading shared browser/campaign skills"
+  },
+  {
+    "id": "REQ-EXEC-007.S3",
+    "category": "happy",
+    "given": "local Facebook reporting configuration selects an authorized customer portal with request-specific receipt acknowledgement",
+    "when": "an outcome is reported",
+    "expected": "apply the generic customer communication duty through that portal, retaining the Facebook request/result details and acknowledgement \u00b7 no mandatory communication channel, provider, transport or service-specific sender prerequisite"
+  },
+  {
+    "id": "REQ-EXEC-007.N1",
+    "category": "validation",
+    "given": "the final caption is absent rather than explicitly supplied",
+    "when": "request validation runs",
+    "expected": "reject with the exact missing-input reason and follow the report injection \u00b7 no invented copy or post submission \u00b7 original inputs preserved"
+  },
+  {
+    "id": "REQ-EXEC-007.N2",
+    "category": "state",
+    "given": "the approved destination is PAGE-A but the final composer acts as PAGE-B",
+    "when": "the pre-submit check runs",
+    "expected": "record identity mismatch and hold submission for correction and revalidation under ownership \u00b7 no post, changed approved target or false success"
+  },
+  {
+    "id": "REQ-EXEC-007.N3",
+    "category": "dependency",
+    "given": "the configured browser rejects local-file upload because its required file permission is disabled",
+    "when": "the upload prerequisite is checked or upload fails",
+    "expected": "record an access blocker and invoke the configured immediate intervention report \u00b7 no post, substituted asset, unapproved backend switch or browser permission change \u00b7 request remains resumable"
+  },
+  {
+    "id": "REQ-EXEC-007.N4",
+    "category": "dependency",
+    "given": "the post has confirmed native acceptance but the configured customer communication service is unavailable",
+    "when": "completion reporting runs",
+    "expected": "apply REQ-EXEC-005 to preserve the successful post and pending communication, reporting the actual service gap through any available authorized requester route \u00b7 no substituted channel or identity, invented missing-credential diagnosis or duplicate post"
+  },
+  {
+    "id": "REQ-EXEC-007.N5",
+    "category": "validation",
+    "given": "a newly requested scheduling instant is earlier than the observed current instant",
+    "when": "validation checks timing",
+    "expected": "raise the past-schedule exception and invoke the configured immediate failure report \u00b7 no guessed replacement time, scheduling claim or post submission \u00b7 requested timing preserved"
+  },
+  {
+    "id": "REQ-EXEC-007.N6",
+    "category": "dependency",
+    "given": "the request specifies a future instant and no existing authorized tool can establish that scheduled action",
+    "when": "scheduling capability is validated",
+    "expected": "record a scheduling blocker and required intervention report \u00b7 no post-now fallback, custom scheduler, scheduled-success claim or invented trigger \u00b7 original timing and request preserved"
+  },
+  {
+    "id": "REQ-EXEC-007.B1",
+    "category": "boundary",
+    "given": "the request authorizes one feed image post and zero follow-up destinations or comments",
+    "when": "the native draft is inspected and submitted",
+    "expected": "retain the exact supplied caption/media and only that post \u00b7 no added link announcement, URL comment, square-image requirement, personal share, crosspost, Story or boost"
+  }
+]

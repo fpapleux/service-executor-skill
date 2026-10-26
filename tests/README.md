@@ -1,0 +1,15 @@
+# Scoped verification
+
+- `test_package.py`: artifact and dependency-link checks. Its closure walker is a test utility, not an executor or a full natural-language instruction scanner.
+- `test_ownership.py`: actual OS exclusive-lock contention between processes, independent locks and release. This proves the primitive, not compliant behavior of arbitrary agents or remote-operation fencing.
+- `test_exercises.py`: scenario-named checks on retained, reviewed synthetic agent responses and bound runtime content. No model is called by this suite.
+- `fixtures/scenarios.json`: approved Given/When/Then and assessment oracle. `exercise-{a,b,c}.json` omit expected outcomes so exercise agents receive only Given/When.
+- `evidence/`: synthetic baseline/guided decisions, reviewer assessments, instruction hashes and observed check output. No live request history or private operational settings.
+
+The baseline was collected by three fresh-context agents before creating runtime guidance. The guided phase uses three other fresh-context agents reading actual runtime guidance and only their assigned exercise inputs. Each case is independent; explicitly stated tool results/authority are stub observations. These are decision-level application exercises, not interactive native browser or transport execution. Reviewers compare every response with the complete Then, including forbidden effects and preserved state. Baseline successes are recorded as pre-existing, not invented red failures.
+
+To repeat: freeze the runtime content identities, give a fresh-context agent the actual skill and a chosen `exercise-*.json` file, and request concrete actions, preserved records and outcome per case. Supply no expected answers or prior reviews. Limit it to synthetic decisions and its result artifact. Review all responses against `scenarios.json`, retain failures and correct only demonstrated instruction defects. Save trace hashes and the complete runtime binding. Changed guidance invalidates old evidence until a new guided run is reviewed.
+
+Run `EXERCISE_PHASE=baseline python3 -m unittest discover -s tests -p test_exercises.py -v` to inspect original baseline findings. Run `python3 -m unittest discover -s tests -v` for current artifact/primitive checks and retained guided evidence. Neither command establishes real Page access, browser login/upload readiness, live publication or customer delivery.
+
+Current implementation evidence: 44 baseline responses yielded 21 satisfactory and 23 incomplete/incorrect decisions under full-scenario review. Guided responses were satisfactory for all 44 after one assisted completeness follow-up for shared-resource close-out (`green-b-s1.json`); the initial incomplete guided response remains retained. Twenty task groups had satisfactory baseline behavior and are explicitly recorded as pre-existing, without invented red failures. The full suite has 52 checks: 44 reviewed-response evidence checks, seven artifact checks and one OS-lock primitive exercise. These counts describe this scoped run, not behavioral certification or live service readiness.

@@ -1,0 +1,233 @@
+test_REQ_EXEC_001_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_B1) ... ok
+test_REQ_EXEC_001_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N1) ... FAIL
+test_REQ_EXEC_001_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N2) ... ok
+test_REQ_EXEC_001_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N3) ... FAIL
+test_REQ_EXEC_001_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_S1) ... FAIL
+test_REQ_EXEC_002_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N1) ... ok
+test_REQ_EXEC_002_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N2) ... ok
+test_REQ_EXEC_002_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N3) ... ok
+test_REQ_EXEC_002_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N4) ... ok
+test_REQ_EXEC_002_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_N5) ... ok
+test_REQ_EXEC_002_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_S1) ... FAIL
+test_REQ_EXEC_003_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_B1) ... FAIL
+test_REQ_EXEC_003_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N1) ... ok
+test_REQ_EXEC_003_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N2) ... ok
+test_REQ_EXEC_003_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N3) ... FAIL
+test_REQ_EXEC_003_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_S1) ... FAIL
+test_REQ_EXEC_004_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N1) ... ok
+test_REQ_EXEC_004_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N2) ... ok
+test_REQ_EXEC_004_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N3) ... ok
+test_REQ_EXEC_004_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N4) ... FAIL
+test_REQ_EXEC_004_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N5) ... ok
+test_REQ_EXEC_004_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N6) ... FAIL
+test_REQ_EXEC_004_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_S1) ... FAIL
+test_REQ_EXEC_005_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N1) ... FAIL
+test_REQ_EXEC_005_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N2) ... ok
+test_REQ_EXEC_005_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N3) ... FAIL
+test_REQ_EXEC_005_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N4) ... ok
+test_REQ_EXEC_005_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S1) ... ok
+test_REQ_EXEC_005_S2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S2) ... FAIL
+test_REQ_EXEC_005_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S3) ... FAIL
+test_REQ_EXEC_006_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N1) ... ok
+test_REQ_EXEC_006_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N2) ... FAIL
+test_REQ_EXEC_006_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N3) ... FAIL
+test_REQ_EXEC_006_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_S1) ... FAIL
+test_REQ_EXEC_007_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_B1) ... ok
+test_REQ_EXEC_007_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N1) ... FAIL
+test_REQ_EXEC_007_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N2) ... ok
+test_REQ_EXEC_007_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N3) ... FAIL
+test_REQ_EXEC_007_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N4) ... ok
+test_REQ_EXEC_007_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N5) ... FAIL
+test_REQ_EXEC_007_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N6) ... FAIL
+test_REQ_EXEC_007_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S1) ... FAIL
+test_REQ_EXEC_007_S2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S2) ... ok
+test_REQ_EXEC_007_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S3) ... FAIL
+
+======================================================================
+FAIL: test_REQ_EXEC_001_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not record rejection or invoke rejection report procedure; original-input preservation not explicit.
+
+======================================================================
+FAIL: test_REQ_EXEC_001_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Claims report delivery result and omits preservation of confirmed prior work.
+
+======================================================================
+FAIL: test_REQ_EXEC_001_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_001_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Completion incorrectly depends on confirmation of the report; communication and execution must remain separate.
+
+======================================================================
+FAIL: test_REQ_EXEC_002_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_002_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not bind the complete transitive instruction/configuration closure or retain credentials as references.
+
+======================================================================
+FAIL: test_REQ_EXEC_003_B1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_B1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Private storage outside public artifacts and credential references are not specified.
+
+======================================================================
+FAIL: test_REQ_EXEC_003_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Persistence error lacks path and operation details required by scenario.
+
+======================================================================
+FAIL: test_REQ_EXEC_003_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_003_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not obtain current request ownership before resuming or explicitly revalidate pending B.
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N4 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not explicitly require positive no-effect evidence plus renewed checks before retry/dependent effects.
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_N6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Loser reporting without writing R1 is not distinguished from acquisition-result recording.
+
+======================================================================
+FAIL: test_REQ_EXEC_004_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_004_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not persist pre-action intent or establish no former-owner operation remains before release.
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not explicitly report missing-report-configuration through the available requester route.
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Adds an alternative duplicate-safe retry authorization outside the required reconciliation condition.
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Prompt report payload omits confirmed effects and request identity.
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_005_S3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Omits surfacing the reporting gap through an available authorized requester route.
+
+======================================================================
+FAIL: test_REQ_EXEC_006_N2 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Allows implementation after concrete authorization instead of prohibiting executor self-amendment.
+
+======================================================================
+FAIL: test_REQ_EXEC_006_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Suggests an approved substitute rather than the specified no-external-fallback outcome.
+
+======================================================================
+FAIL: test_REQ_EXEC_006_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_006_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Cannot follow the missing bundled guide; four explicit injections and preserved generic communication rules not demonstrated.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Records blocked rather than rejection and omits report procedure.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not invoke configured immediate intervention report or explicitly retain resumability.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N5 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Omits past-schedule exception and immediate configured failure report.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N6 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_N6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Does not invoke required intervention report.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_S1 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Omits actual capability check, explicit acceptance, pre-action intent and configured outcome reporting.
+
+======================================================================
+FAIL: test_REQ_EXEC_007_S3 (test_exercises.ReviewedExerciseTests.test_REQ_EXEC_007_S3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_exercises.py", line 37, in test
+    self.assertTrue(review['passed'], review['assessment'])
+AssertionError: False is not true : Treats receipt as delivery evidence; fails to limit claims to submission acknowledgement.
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.019s
+
+FAILED (failures=23)

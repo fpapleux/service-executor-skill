@@ -1,0 +1,266 @@
+[
+  {
+    "id": "REQ-EXEC-001.S1",
+    "passed": false,
+    "assessment": "Completion incorrectly depends on confirmation of the report; communication and execution must remain separate.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-001.N1",
+    "passed": false,
+    "assessment": "Does not record rejection or invoke rejection report procedure; original-input preservation not explicit.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-001.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-001.N3",
+    "passed": false,
+    "assessment": "Claims report delivery result and omits preservation of confirmed prior work.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-001.B1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.S1",
+    "passed": false,
+    "assessment": "Does not bind the complete transitive instruction/configuration closure or retain credentials as references.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.N1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.N3",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.N4",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-002.N5",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-003.S1",
+    "passed": false,
+    "assessment": "Does not obtain current request ownership before resuming or explicitly revalidate pending B.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-003.N1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-003.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-003.N3",
+    "passed": false,
+    "assessment": "Persistence error lacks path and operation details required by scenario.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-003.B1",
+    "passed": false,
+    "assessment": "Private storage outside public artifacts and credential references are not specified.",
+    "trace": "baseline-a.json"
+  },
+  {
+    "id": "REQ-EXEC-004.S1",
+    "passed": false,
+    "assessment": "Does not persist pre-action intent or establish no former-owner operation remains before release.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N3",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N4",
+    "passed": false,
+    "assessment": "Does not explicitly require positive no-effect evidence plus renewed checks before retry/dependent effects.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N5",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-004.N6",
+    "passed": false,
+    "assessment": "Loser reporting without writing R1 is not distinguished from acquisition-result recording.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.S1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.S2",
+    "passed": false,
+    "assessment": "Prompt report payload omits confirmed effects and request identity.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.S3",
+    "passed": false,
+    "assessment": "Omits surfacing the reporting gap through an available authorized requester route.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.N1",
+    "passed": false,
+    "assessment": "Does not explicitly report missing-report-configuration through the available requester route.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.N3",
+    "passed": false,
+    "assessment": "Adds an alternative duplicate-safe retry authorization outside the required reconciliation condition.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-005.N4",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-b.json"
+  },
+  {
+    "id": "REQ-EXEC-006.S1",
+    "passed": false,
+    "assessment": "Cannot follow the missing bundled guide; four explicit injections and preserved generic communication rules not demonstrated.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-006.N1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-006.N2",
+    "passed": false,
+    "assessment": "Allows implementation after concrete authorization instead of prohibiting executor self-amendment.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-006.N3",
+    "passed": false,
+    "assessment": "Suggests an approved substitute rather than the specified no-external-fallback outcome.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.S1",
+    "passed": false,
+    "assessment": "Omits actual capability check, explicit acceptance, pre-action intent and configured outcome reporting.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.S2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.S3",
+    "passed": false,
+    "assessment": "Treats receipt as delivery evidence; fails to limit claims to submission acknowledgement.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N1",
+    "passed": false,
+    "assessment": "Records blocked rather than rejection and omits report procedure.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N2",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N3",
+    "passed": false,
+    "assessment": "Does not invoke configured immediate intervention report or explicitly retain resumability.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N4",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N5",
+    "passed": false,
+    "assessment": "Omits past-schedule exception and immediate configured failure report.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.N6",
+    "passed": false,
+    "assessment": "Does not invoke required intervention report.",
+    "trace": "baseline-c.json"
+  },
+  {
+    "id": "REQ-EXEC-007.B1",
+    "passed": true,
+    "assessment": "Response satisfies the scenario in this synthetic decision exercise; review full trace for scope.",
+    "trace": "baseline-c.json"
+  }
+]

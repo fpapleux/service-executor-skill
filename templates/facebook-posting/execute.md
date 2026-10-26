@@ -1,0 +1,14 @@
+# Execute: owned-Page image post
+
+Use only the bound local procedure, configured supported browser/profile and current tool documentation. These steps do not load another skill. Native UI labels vary; inspect the actual interface instead of relying on stale selectors. Maintain request/profile ownership throughout browser mutations.
+
+1. Recover original inputs and confirmed/uncertain attempts. If a post is confirmed, do not recreate it. Reconcile an unknown submission through attributable native evidence before considering another attempt.
+2. Open the owned Page through the configured account's actual Page selection. Confirm the native Page identity and acting identity match the accepted target. A login/challenge requiring the customer is an intervention blocker; promptly report it without bypassing login.
+3. Open that Page's native feed composer. Enter the exact supplied final caption and attach the specified image through the configured upload facility. Inspect the loaded preview and upload result. No source filename or square-format rule substitutes for the actual requested asset.
+4. Inspect the final composer: acting Page, exact caption, correct single image, feed placement, approved timing and no additional distribution destinations/actions. If it acts as a different Page, record `identity-mismatch` and hold submission. Correct only within accepted authority, under ownership, then revalidate. Never change the approved target to match the composer.
+5. For future timing, use the verified supported native scheduling facility and inspect its exact scheduled instant. If unavailable, retain the blocker; do not post now. For immediate publication, use the native publish action only when all checks pass.
+6. Before the final submission, persist intent with request/attempt ID, exact target/content/media/timing, authority and current owner. If persistence fails, report its path/operation and do not submit. Submit once; retain the response and native post/scheduling confirmation. A click, spinner, composer closing or tool success alone is insufficient proof of native acceptance.
+7. Inspect the Page's native post/result view or schedule view as appropriate. Record native acceptance evidence and a post reference when readily available. If outcome is unknown, retain the attempt and reconciliation hold. Do not submit again just because a link is unavailable.
+8. Record the truthful execution outcome and invoke the report injection. If reporting is unavailable after native acceptance, retain successful posting separately from pending communication; never republish to repair reporting.
+
+An upload permission failure stops the upload-dependent task and triggers immediate intervention reporting. Do not change browser permissions, substitute the image, use an unapproved backend or continue a draft missing its required media. A failed tool call records failure rather than starting an automatic retry loop.

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "REQ-EXEC-006.S1",
+    "actions": [
+      "As operator, create a separate document-export template with four local validate, decision, execute and report injections and a declaration of all supporting local instructions.",
+      "Define explicit source document, output format, authorized destination, source readability/export capability, authority constraints, export intent and artifact verification, and the configured customer-portal reporting procedure.",
+      "Declare private tool configuration, record root, canonical shared resources, ownership facility, authority sources and reporting/reconciliation capabilities; resolve the full local instruction closure.",
+      "Exercise nominal, invalid, outage, uncertainty, resume and contention cases; review/publish an identifiable operator-controlled version while retaining bound old versions. Activation/deployment requires separate authorization."
+    ],
+    "records": [
+      "Preserve the export-specific contract and its review/exercise evidence; do not inherit Facebook actions, account access or a mandatory email channel.",
+      "The bundled export illustration is not a deployed service; untested capabilities remain unproven."
+    ],
+    "outcome": "Document-export customization follows the generic lifecycle with its own complete local injections; publication alone does not activate it."
+  },
+  {
+    "id": "REQ-EXEC-006.N1",
+    "actions": [
+      "Identify missing decision constraints using the four-injection checklist.",
+      "Keep the proposed template visibly incomplete; hold execution and do not claim ready or activate it.",
+      "Have the operator define the acceptance/rejection and authority constraints in a separate customization context before review."
+    ],
+    "records": [
+      "Record the missing decision constraints as incomplete-service-definition and preserve the proposed definition and required next action."
+    ],
+    "outcome": "Template remains incomplete and cannot be accepted for execution."
+  },
+  {
+    "id": "REQ-EXEC-006.N2",
+    "actions": [
+      "Do not amend the running skill, injections, templates or helpers, even when the improvement is approved only in principle.",
+      "File a separate attributable improvement request through the configured operator route for operator evaluation and implementation in a separate change context."
+    ],
+    "records": [
+      "Include request ID, bound version, problem and evidence, proposed change and impact.",
+      "Preserve the running request's original history and instruction/configuration binding."
+    ],
+    "outcome": "Improvement is routed separately; executor self-editing is held."
+  },
+  {
+    "id": "REQ-EXEC-006.N3",
+    "actions": [
+      "Report missing-customization-resource identifying the required unavailable bundled resource.",
+      "Hold the dependent customization review/completion and keep readiness unconfirmed.",
+      "Do not load another skill or invent substitute instructions; obtain the required bundled resource before continuing."
+    ],
+    "records": [
+      "Preserve the missing-resource observation and the next action to restore the required bundled resource."
+    ],
+    "outcome": "Customization is blocked on the missing required resource."
+  },
+  {
+    "id": "REQ-EXEC-007.S1",
+    "actions": [
+      "Preserve the supplied approved caption, image, feed placement, eligible timing, publication authority and resolved PAGE-A identity.",
+      "Apply remaining configured capability/configuration and local-binding checks under exclusive request ownership; persist affirmative acceptance of that exact scope before execution and invoke acceptance reporting.",
+      "Under canonical shared-profile ownership, select PAGE-A and verify acting identity, exact caption, correct single image, feed-only placement and approved timing in the final native composer.",
+      "Persist pre-submit intent and attempt identity, submit the authorized native action once, inspect native post/schedule acceptance evidence, record the observed result and invoke outcome reporting."
+    ],
+    "records": [
+      "Retain owned-Page resolution evidence identifying Example Page as PAGE-A, original inputs and authority, full binding identities, acceptance, ownership, pre-action intent and attributable native result evidence.",
+      "Retain each communication obligation and acknowledgement separately; if native acceptance is unconfirmed, preserve uncertainty and hold repeats/dependent effects pending reconciliation."
+    ],
+    "outcome": "Eligible exact PAGE-A request proceeds through acceptance and one authorized submission; success is recorded only from native acceptance evidence."
+  },
+  {
+    "id": "REQ-EXEC-007.S2",
+    "actions": [
+      "Treat explicitly authorized supported Chrome as eligible and use its configured profile and current API documentation.",
+      "Use the satisfied upload prerequisites; continue the remaining lifecycle checks without requiring internal iab or loading a shared browser skill."
+    ],
+    "records": [
+      "Preserve explicit Chrome authorization/profile configuration and observed satisfied upload prerequisites; retain iab unavailability as an observation, not a Chrome blocker."
+    ],
+    "outcome": "Browser prerequisites pass for configured Chrome despite unavailable iab."
+  },
+  {
+    "id": "REQ-EXEC-007.S3",
+    "actions": [
+      "Use the configured authorized customer portal's documented submission procedure to report the actual outcome with request ID, resolved Page, confirmed effects/evidence, available native reference, reason and next action.",
+      "Retain the request-specific receipt acknowledgement as submission evidence; do not infer delivery or reading.",
+      "For an unknown submission, reconcile the same incident/attempt through authoritative portal evidence before any resend."
+    ],
+    "records": [
+      "Keep report content, obligation/incident ID, attempt ID, portal receipt/native acknowledgement and communication status separate from execution outcome."
+    ],
+    "outcome": "Customer-portal reporting is valid; acknowledged submission is preserved without claiming customer reading."
+  },
+  {
+    "id": "REQ-EXEC-007.N1",
+    "actions": [
+      "Reject with the concrete reason missing required final caption; preserve that the caption was absent rather than explicitly supplied.",
+      "Do not write replacement copy or submit a post.",
+      "Promptly invoke configured rejection reporting with request ID, actual reason, confirmed effects and the next action for the requester to supply the exact final caption."
+    ],
+    "records": [
+      "Preserve exact original inputs, missing-caption validation finding, rejection decision and separate reporting evidence or pending obligation."
+    ],
+    "outcome": "Rejected for absent final caption; no task submission."
+  },
+  {
+    "id": "REQ-EXEC-007.N2",
+    "actions": [
+      "Record identity-mismatch and hold final submission because the accepted destination is PAGE-A and the composer acts as PAGE-B.",
+      "Correct acting identity only within accepted PAGE-A authority and current profile ownership, then revalidate the entire final scope before any submission; never change the approved target to PAGE-B.",
+      "Promptly report any unresolved identity blocker and required intervention through the configured route."
+    ],
+    "records": [
+      "Preserve accepted PAGE-A target, observed PAGE-B acting identity, mismatch evidence, submission hold and correction/revalidation or intervention next action."
+    ],
+    "outcome": "Submission is held until the composer verifiably acts for accepted PAGE-A."
+  },
+  {
+    "id": "REQ-EXEC-007.N3",
+    "actions": [
+      "Stop the upload-dependent task and record the browser's actual disabled local-file permission blocker.",
+      "If observed during validation, hold acceptance/execution for unavailable upload capability; if a tool upload call failed, record failed execution with no automatic retry.",
+      "Immediately invoke configured intervention reporting requesting operator resolution of the required upload permission.",
+      "Do not change browser permissions, diagnose missing credentials without evidence, switch backend, substitute media or continue a draft lacking the required image; keep the request resumable."
+    ],
+    "records": [
+      "Retain actual browser rejection/failure evidence, supplied asset reference, blocked permission, confirmed earlier work, report attempt/status and next operator intervention."
+    ],
+    "outcome": "Upload-dependent posting stops; operator intervention is required and promptly reported."
+  },
+  {
+    "id": "REQ-EXEC-007.N4",
+    "actions": [
+      "Preserve confirmed native post acceptance as completed execution and do not republish.",
+      "Record the configured communication service outage and retain completion reporting as a discoverable pending obligation.",
+      "Expose the reporting gap through any available authorized requester route without substituting an unauthorized route/identity or inventing a credential diagnosis.",
+      "On recovery, resume only unfinished reporting, reconciling any unknown send outcome before another send."
+    ],
+    "records": [
+      "Retain native acceptance evidence/post reference, completed execution status, exact completion-report content, incident/attempt identity, outage evidence and pending communication next action."
+    ],
+    "outcome": "Post remains completed with communication pending; fully reported success is not claimed."
+  },
+  {
+    "id": "REQ-EXEC-007.N5",
+    "actions": [
+      "Compare the requested scheduling instant including timezone/offset against the observed current instant.",
+      "Record past-schedule, preserve the original instant and hold submission.",
+      "Invoke the immediate configured failure report identifying the past instant and required requester intervention; do not guess a replacement time or publish now."
+    ],
+    "records": [
+      "Retain requested instant/timezone, observed current instant, past-schedule finding, submission hold, confirmed effects and separate report evidence or pending obligation."
+    ],
+    "outcome": "Past-schedule exception; submission held and immediate failure reporting invoked."
+  },
+  {
+    "id": "REQ-EXEC-007.N6",
+    "actions": [
+      "Record unsupported native scheduling capability and hold acceptance/task execution for the requested future instant.",
+      "Promptly invoke configured intervention reporting with the scheduling blocker and required operator action.",
+      "Do not build a scheduler, invent a wake-up trigger, claim scheduling from stored state or publish immediately."
+    ],
+    "records": [
+      "Preserve exact future instant/timezone, evidence that no existing authorized tool can establish it, blocker, confirmed effects, reporting status and next intervention."
+    ],
+    "outcome": "Scheduling is blocked; no scheduled or immediate post is submitted."
+  },
+  {
+    "id": "REQ-EXEC-007.B1",
+    "actions": [
+      "Inspect the native draft under current ownership against the accepted one feed image post scope: exact Page/acting identity, caption, single specified image, placement and timing.",
+      "Ensure no comments, personal shares, Stories, crossposts, boosts or extra destinations/actions are included.",
+      "Persist exact pre-action intent, submit once only after final scope checks pass, inspect native acceptance evidence and invoke the configured outcome report."
+    ],
+    "records": [
+      "Preserve explicit zero-follow-up scope, final draft observations, acceptance/authority, intent/attempt identity, native acceptance or uncertainty evidence and separate reporting status.",
+      "If native outcome is unknown, retain reconciliation and replay/dependency holds rather than infer success from submission alone."
+    ],
+    "outcome": "Only the authorized single feed image post is submitted; no follow-up destinations or comments are performed."
+  }
+]

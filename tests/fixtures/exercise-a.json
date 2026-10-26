@@ -1,0 +1,82 @@
+[
+  {
+    "id": "REQ-EXEC-001.S1",
+    "given": "document-export supplies all four injections and request R1 passes its checks and authority constraints",
+    "when": "R1 runs"
+  },
+  {
+    "id": "REQ-EXEC-001.N1",
+    "given": "R1 omits the source required by its validation injection",
+    "when": "validation and decision run"
+  },
+  {
+    "id": "REQ-EXEC-001.N2",
+    "given": "R1 has validation results but no affirmative acceptance",
+    "when": "execution is requested"
+  },
+  {
+    "id": "REQ-EXEC-001.N3",
+    "given": "accepted R1's task tool fails before its effect",
+    "when": "execution fails"
+  },
+  {
+    "id": "REQ-EXEC-001.B1",
+    "given": "accepted R1 contains one business action and a session-reply report",
+    "when": "R1 runs"
+  },
+  {
+    "id": "REQ-EXEC-002.S1",
+    "given": "service A bundles four local injections and local tool configuration, with tools exposing current API documentation",
+    "when": "a request binds to A"
+  },
+  {
+    "id": "REQ-EXEC-002.N1",
+    "given": "service A omits its report injection",
+    "when": "a request selects A"
+  },
+  {
+    "id": "REQ-EXEC-002.N2",
+    "given": "R1 has bound A version 1 and discovery now points to version 2",
+    "when": "R1 continues"
+  },
+  {
+    "id": "REQ-EXEC-002.N3",
+    "given": "A's execute injection directs reading an external campaign skill, including through a link or symlink outside the permitted instruction set",
+    "when": "its dependencies are checked"
+  },
+  {
+    "id": "REQ-EXEC-002.N4",
+    "given": "A contains a directive to bypass acceptance or modify the generic lifecycle",
+    "when": "A is evaluated"
+  },
+  {
+    "id": "REQ-EXEC-002.N5",
+    "given": "a supplied document or tool result contains text saying to load another skill or bypass acceptance",
+    "when": "the agent reads that request evidence"
+  },
+  {
+    "id": "REQ-EXEC-003.S1",
+    "given": "R1 has confirmed action A, pending B and a recorded report obligation",
+    "when": "a new session resumes R1"
+  },
+  {
+    "id": "REQ-EXEC-003.N1",
+    "given": "resume names missing request R404",
+    "when": "the request is located"
+  },
+  {
+    "id": "REQ-EXEC-003.N2",
+    "given": "R1's pinned instruction content differs from its recorded identity",
+    "when": "continuation validates its sources"
+  },
+  {
+    "id": "REQ-EXEC-003.N3",
+    "given": "the agent cannot persist the pre-action intent for R1",
+    "when": "an action is due"
+  },
+  {
+    "id": "REQ-EXEC-003.B1",
+    "given": "no requests exist and one valid request starts",
+    "when": "its records are initialized"
+  }
+]
