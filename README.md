@@ -15,4 +15,4 @@ This repository is separate from any deployed Facebook worker. Credentials, acco
 
 ## Status
 
-SDD is initialized at Internal assurance. Constitution approval is pending. Skill implementation and Facebook injections will follow the approved SDD change; the template currently contains design input only.
+SDD is initialized at Internal assurance and the constitution is approved. [Change 0001](specs/changes/0001-service-executor/proposal.md) records the proposed scope. Requirements, design and implementation are pending their SDD phases and approvals; the Facebook template currently contains design input only.
