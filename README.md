@@ -15,4 +15,4 @@ This repository is separate from any deployed Facebook worker. Credentials, acco
 
 ## Status
 
-Repository scaffold created. SDD initialization awaits the operator's assurance-level selection. Skill implementation and Facebook injections are pending the SDD approval gates.
+SDD is initialized at Internal assurance. Constitution approval is pending. Skill implementation and Facebook injections will follow the approved SDD change; the template currently contains design input only.
