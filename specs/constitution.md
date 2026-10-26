@@ -1,6 +1,8 @@
 ---
 assurance: internal
-approved: no
+approved: yes
+fingerprint: 3b88f781b59d
+approved_level: internal
 ---
 
 # Constitution
@@ -46,3 +48,4 @@ operator decides.
 ## Approvals
 | Gate | Date | Evidence |
 | --- | --- | --- |
+| constitution | 2026-10-26 | Sam in Operations Codex chat 01a1686e-0119-7580-8cd7-58c77204142b, 2026-10-26 Europe/Brussels: "$sdd approve constitution". · fingerprint 3b88f781b59d · level internal |
