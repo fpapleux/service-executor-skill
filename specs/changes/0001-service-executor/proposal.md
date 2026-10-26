@@ -4,9 +4,10 @@ title: Self-contained four-stage service executor and Facebook template
 type: feature
 size: standard
 assurance: internal
-status: clarifying
+status: spec-approved
 capabilities: service-executor=EXEC
 created: 2026-10-26
+spec_hash: e301df40c777
 ---
 
 # 0001-service-executor — Self-contained four-stage service executor and Facebook template
@@ -45,3 +46,4 @@ The operator must be able to define more services in fresh sessions with predict
 ## Approvals
 | Gate | Date | Evidence |
 | --- | --- | --- |
+| spec | 2026-10-26 | Operator in Codex chat, 2026-10-26: "$sdd approve" |
