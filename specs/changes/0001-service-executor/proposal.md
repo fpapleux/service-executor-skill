@@ -22,10 +22,10 @@ The operator must be able to define more services in fresh sessions with predict
 
 ## Scope
 - In:
-  - An agent-interpreted generic skill with the four explicit stages and four service-specific injection areas. Execution is conditional on acceptance; rejection, blockers, failures and completion have attributable reporting outcomes.
+  - An agent-interpreted generic skill with the four explicit stages and four service-specific injection areas. Execution is conditional on acceptance. Keeping the customer informed is a generic responsibility; temporary communication outages retain reporting obligations without blocking otherwise accepted, authorized and independently executable work. Each adopter supplies its communication channel and procedure.
   - An instruction boundary consisting of the skill's bundled files and the explicitly selected local service template. Necessary prior guidance is imported locally, without runtime references that load other skills or shared operating procedures. Explicit request inputs, local tool configuration and current tool/API documentation remain usable.
   - Durable records sufficient to recover exact inputs, decisions, versions, authority, progress, effects and reporting in a new session. Separate concurrent requests retain independent records; shared effects require exclusive ownership and uncertain effects require reconciliation before retry.
-  - The four Facebook posting injections under templates/facebook-posting/, including the local domain guidance and configurable browser/email access information needed to perform the exact requested post. Service-specific destinations, sender choices and tool settings do not become generic executor rules.
+  - The four Facebook posting injections under templates/facebook-posting/, including local domain guidance, browser configuration and the adopter's chosen customer communication procedure. Service-specific destinations, channel choices, sender settings and tool settings do not become generic executor rules; neither the skill nor the public template requires email or a particular provider.
   - Bundled operator-facing instructions for creating, adapting and reviewing another service's injections, with the generic skill pointing to that local customization guidance. Executors may report improvements but never amend their own process.
   - Documentation and scoped verification of the package, its instruction boundary, lifecycle, continuity and Facebook template. Publish repository artifacts through the existing public GitHub remote.
 - Out:
@@ -35,8 +35,8 @@ The operator must be able to define more services in fresh sessions with predict
   - Credentials, private connection settings, live request histories, logs or media in the public repository.
 
 ## Open questions
-- Q1 [NEEDS CLARIFICATION: If configured communication provider is temporarily unavailable but all Facebook posting checks pass, should the template continue posting with pending notification, or hold posting until email is restored?]
-- This decision belongs to the Facebook acceptance/report injections, not a hardcoded generic executor rule. Missing required reporting configuration remains distinct from a temporarily unavailable configured service.
+- Q1 resolved by Sam, 2026-10-26: "continue posting but that is not a facebook injection. That is part of the process of executing a service." Keeping the customer informed and continuing independent accepted work during communication outages belong to the generic executor. Public adopters implement their own communication channel/procedure; email is only one option.
+- A missing or malformed required reporting definition/configuration remains a definition/validation issue; the nonblocking rule concerns temporary unavailability of an otherwise configured communication channel.
 
 ## Amendments
 <!-- Spec changes after the spec gate, one line each, then `sdd.py approve amend`:

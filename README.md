@@ -9,10 +9,12 @@ A self-contained agent skill with four stages:
 
 The generic skill owns sequencing, durable request records, concurrency and recovery. Service-specific behavior belongs in explicit injections bundled with the service template. Runtime instructions must not load other skills or shared operating procedures.
 
+Keeping the customer informed is also a generic responsibility. A temporary communication outage retains a pending report without blocking otherwise accepted, authorized and independently executable work. Each adopter supplies its own communication channel and procedure; email is one option, not a requirement of this public skill.
+
 The first service template will live in `templates/facebook-posting/`. Customization instructions will explain how an operator creates or changes these four injections; executing agents do not amend themselves.
 
 This repository is separate from any deployed Facebook worker. Credentials, account-specific connection settings, request histories and live media do not belong in this public repository.
 
 ## Status
 
-SDD is initialized at Internal assurance and the constitution is approved. [Change 0001](specs/changes/0001-service-executor/proposal.md) is in clarification: [draft requirements](specs/changes/0001-service-executor/spec-delta.md) cover the lifecycle and templates, and [review round 1](specs/changes/0001-service-executor/clarifications.md) retains one pending operator decision about temporary email unavailability before posting. Design and implementation are pending their SDD phases and approvals; the Facebook template currently contains design input only.
+SDD is initialized at Internal assurance and the constitution is approved. [Change 0001](specs/changes/0001-service-executor/proposal.md) has [draft requirements](specs/changes/0001-service-executor/spec-delta.md) and two completed [clarification rounds](specs/changes/0001-service-executor/clarifications.md), awaiting spec approval. Design and implementation are pending their SDD phases and approvals; the Facebook template currently contains design input only.
