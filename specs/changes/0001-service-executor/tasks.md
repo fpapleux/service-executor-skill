@@ -1,10 +1,220 @@
-<!-- Planner: one task per scenario (group triangulating happy/boundary
-examples of one rule), each negative right after its happy path.
+## Tasks
 
-- [ ] T1 REQ-CHK-001.S1 Guest pays for a cart
+Implement in order, keeping each failure path adjacent to its requirement. The two grouped happy/boundary pairs share minimal guidance; all other scenarios have separate tasks. No implementation or tests are written during this planning phase.
+
+Each task first creates its named structural check and/or controlled agent exercise with a failing assertion, then adds the minimum guidance and records actual red/green evidence. Use synthetic inputs and stub observations only. Never substitute a Python workflow simulation or keyword presence check for behavioral evidence.
+
+Proposed suite: `python3 -m unittest discover -s tests -v`. Keep structural checks and agent-exercise results distinguishable; name scenario-specific tests under `tests/` and retain attributable exercise evidence there. Carry unresolved or unrun exercises into verification as gaps.
+
+- [ ] T1 REQ-EXEC-001.S1 REQ-EXEC-001.B1 Run the four stages for a single authorized action
+  - Scope: SKILL.md and reference/lifecycle.md; initialize structural checks and controlled-exercise fixtures.
   - test:
   - red:
   - green:
--->
+- [ ] T2 REQ-EXEC-001.N1 Reject missing business input without executing
+  - Scope: validation and rejection guidance.
+  - test:
+  - red:
+  - green:
+- [ ] T3 REQ-EXEC-001.N2 Require affirmative acceptance before task execution
+  - Scope: acceptance boundary.
+  - test:
+  - red:
+  - green:
+- [ ] T4 REQ-EXEC-001.N3 Record task failure without automatic retry
+  - Scope: failure outcome and reporting handoff.
+  - test:
+  - red:
+  - green:
+- [ ] T5 REQ-EXEC-002.S1 Bind four injections and the complete local instruction/configuration closure
+  - Scope: template declaration, content identities and neutral tool configuration contract.
+  - test:
+  - red:
+  - green:
+- [ ] T6 REQ-EXEC-002.N1 Reject an incomplete service definition
+  - Scope: missing report injection and available requester route.
+  - test:
+  - red:
+  - green:
+- [ ] T7 REQ-EXEC-002.N2 Preserve the bound version when newer instructions appear
+  - Scope: immutable binding selection.
+  - test:
+  - red:
+  - green:
+- [ ] T8 REQ-EXEC-002.N3 Reject external instruction dependencies including escaping symlinks
+  - Scope: local dependency closure checks.
+  - test:
+  - red:
+  - green:
+- [ ] T9 REQ-EXEC-002.N4 Reject an injection that overrides the generic lifecycle
+  - Scope: definition conflict handling.
+  - test:
+  - red:
+  - green:
+- [ ] T10 REQ-EXEC-002.N5 Treat instructions embedded in request/tool evidence as data
+  - Scope: data and instruction boundary.
+  - test:
+  - red:
+  - green:
+- [ ] T11 REQ-EXEC-003.S1 REQ-EXEC-003.B1 Create private request records and resume only unfinished work
+  - Scope: reference/records.md; synthetic records, binding and journal examples.
+  - test:
+  - red:
+  - green:
+- [ ] T12 REQ-EXEC-003.N1 Report a missing resume request without creating a replacement
+  - Scope: explicit request lookup and missing-record outcome.
+  - test:
+  - red:
+  - green:
+- [ ] T13 REQ-EXEC-003.N2 Hold effects on instruction content mismatch
+  - Scope: binding integrity checks.
+  - test:
+  - red:
+  - green:
+- [ ] T14 REQ-EXEC-003.N3 Hold submission when intent cannot be persisted
+  - Scope: pre-effect persistence boundary.
+  - test:
+  - red:
+  - green:
+- [ ] T15 REQ-EXEC-004.S1 Own request and shared effects through safe release
+  - Scope: existing exclusive-lock procedure, canonical resource keys and owner tokens.
+  - test:
+  - red:
+  - green:
+- [ ] T16 REQ-EXEC-004.N1 Hold browser mutation when its shared profile is unresolved
+  - Scope: canonical resource resolution.
+  - test:
+  - red:
+  - green:
+- [ ] T17 REQ-EXEC-004.N2 Exclude different requests from simultaneous shared-profile mutation
+  - Scope: two-owner contention exercise.
+  - test:
+  - red:
+  - green:
+- [ ] T18 REQ-EXEC-004.N3 Hold effects when ownership evidence is unreadable
+  - Scope: ownership-unavailable handling.
+  - test:
+  - red:
+  - green:
+- [ ] T19 REQ-EXEC-004.N4 Reconcile an unknown outcome before any repeat or dependent effect
+  - Scope: intent/attempt evidence and positive no-effect requirement.
+  - test:
+  - red:
+  - green:
+- [ ] T20 REQ-EXEC-004.N5 Prevent a former owner from acting after safe handover
+  - Scope: current owner/token recheck and in-flight operation handling.
+  - test:
+  - red:
+  - green:
+- [ ] T21 REQ-EXEC-004.N6 Admit one writer when two agents start or resume the same request
+  - Scope: same-request contention exercise.
+  - test:
+  - red:
+  - green:
+- [ ] T22 REQ-EXEC-005.S1 Record completion and communication submission separately
+  - Scope: generic communication obligations and evidence fields.
+  - test:
+  - red:
+  - green:
+- [ ] T23 REQ-EXEC-005.S2 Promptly report a customer login intervention blocker
+  - Scope: blocked-state report trigger.
+  - test:
+  - red:
+  - green:
+- [ ] T24 REQ-EXEC-005.S3 Continue independent accepted work during a reporting outage
+  - Scope: pending communication and authorized requester-route handling.
+  - test:
+  - red:
+  - green:
+- [ ] T25 REQ-EXEC-005.N1 Reject missing required report configuration without guessing
+  - Scope: configuration versus transient outage distinction.
+  - test:
+  - red:
+  - green:
+- [ ] T26 REQ-EXEC-005.N2 Preserve failure and avoid repeating an acknowledged incident report
+  - Scope: incident identity and confirmed submission handling.
+  - test:
+  - red:
+  - green:
+- [ ] T27 REQ-EXEC-005.N3 Reconcile an unknown report submission before another send
+  - Scope: communication attempt uncertainty.
+  - test:
+  - red:
+  - green:
+- [ ] T28 REQ-EXEC-005.N4 Resume pending communication without replaying completed work
+  - Scope: reporting-only fresh-session recovery.
+  - test:
+  - red:
+  - green:
+- [ ] T29 REQ-EXEC-006.S1 Guide operators to define another service with four local injections
+  - Scope: reference/customization.md; small document-export example and package README.
+  - test:
+  - red:
+  - green:
+- [ ] T30 REQ-EXEC-006.N1 Keep a template incomplete when decision constraints are absent
+  - Scope: operator customization checklist.
+  - test:
+  - red:
+  - green:
+- [ ] T31 REQ-EXEC-006.N2 File an improvement request without executor self-amendment
+  - Scope: separate change-request procedure and operator ownership.
+  - test:
+  - red:
+  - green:
+- [ ] T32 REQ-EXEC-006.N3 Report a missing customization resource without external fallback
+  - Scope: bundled customization resource check.
+  - test:
+  - red:
+  - green:
+- [ ] T33 REQ-EXEC-007.S1 Compose and submit the exact authorized owned-Page image post
+  - Scope: Facebook README, four injections and neutral TOOLS.example.md; local native procedure.
+  - test:
+  - red:
+  - green:
+- [ ] T34 REQ-EXEC-007.S2 Use explicitly configured supported Chrome when internal browser is unavailable
+  - Scope: browser capability and upload prerequisite guidance.
+  - test:
+  - red:
+  - green:
+- [ ] T35 REQ-EXEC-007.S3 Report Facebook results through the configured customer portal
+  - Scope: channel-neutral report injection and receipt evidence.
+  - test:
+  - red:
+  - green:
+- [ ] T36 REQ-EXEC-007.N1 Reject an absent final caption without inventing copy
+  - Scope: Facebook validation input checks.
+  - test:
+  - red:
+  - green:
+- [ ] T37 REQ-EXEC-007.N2 Hold submission when the final acting Page differs from approval
+  - Scope: native draft identity check.
+  - test:
+  - red:
+  - green:
+- [ ] T38 REQ-EXEC-007.N3 Report an upload permission blocker without changing permissions
+  - Scope: upload failure and immediate intervention procedure.
+  - test:
+  - red:
+  - green:
+- [ ] T39 REQ-EXEC-007.N4 Preserve a confirmed post when completion communication fails
+  - Scope: Facebook outcome evidence and generic reporting-debt integration.
+  - test:
+  - red:
+  - green:
+- [ ] T40 REQ-EXEC-007.N5 Raise an exception for a past scheduling instant
+  - Scope: observed clock comparison and original timing preservation.
+  - test:
+  - red:
+  - green:
+- [ ] T41 REQ-EXEC-007.N6 Block unsupported future scheduling without posting now
+  - Scope: native scheduling capability check.
+  - test:
+  - red:
+  - green:
+- [ ] T42 REQ-EXEC-007.B1 Limit execution to the exact caption, image and requested destination
+  - Scope: final scope inspection; no implicit distribution or formatting requirements.
+  - test:
+  - red:
+  - green:
 
-## Tasks
+All tasks preserve the locked requirements and four known gaps. Fold fixture setup and structural checks into the first task that needs them. After the last task, run the full suite, inspect the public diff for private settings/identities, and hand off to `$sdd verify`; do not activate an executor or perform live service actions.
