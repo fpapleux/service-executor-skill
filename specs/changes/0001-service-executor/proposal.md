@@ -35,7 +35,7 @@ The operator must be able to define more services in fresh sessions with predict
   - Credentials, private connection settings, live request histories, logs or media in the public repository.
 
 ## Open questions
-- None at proposal stage. The four-stage model, self-contained instruction boundary, Internal assurance and operator-only customization were explicitly supplied or approved by Sam in this Operations session.
+- None at specification stage. The four-stage model, self-contained authored instruction boundary, Internal assurance and operator-only customization were explicitly supplied or approved by Sam. The known gaps distinguish package isolation from host/system policies and live capability verification.
 
 ## Amendments
 <!-- Spec changes after the spec gate, one line each, then `sdd.py approve amend`:
