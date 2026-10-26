@@ -32,7 +32,7 @@ The operator must be able to define more services in fresh sessions with predict
   - A custom execution engine, workflow service, scheduler, queue, supervisor, automatic retry system, browser adapter or email implementation.
   - Replacing the currently installed execute skill, migrating existing requests, changing legacy releases, updating the MCP launcher or deploying into the live Facebook agent. Publishing the Facebook template here means delivering its injections in this repository.
   - Live Facebook posts, uploads, comments, shares, crossposts, boosts, email sends, account changes or spending. Template availability does not grant authority for these actions.
-  - Credentials, private connection settings, live request histories, logs or media in the public repository.
+  - Credentials, adopter-specific communication provider identities, private connection settings, live request histories, logs or media in the public repository.
 
 ## Open questions
 - Q1 resolved by Sam, 2026-10-26: "continue posting but that is not a facebook injection. That is part of the process of executing a service." Keeping the customer informed and continuing independent accepted work during communication outages belong to the generic executor. Public adopters implement their own communication channel/procedure; email is only one option.

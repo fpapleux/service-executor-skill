@@ -13,7 +13,7 @@ Keeping the customer informed is also a generic responsibility. A temporary comm
 
 The first service template will live in `templates/facebook-posting/`. Customization instructions will explain how an operator creates or changes these four injections; executing agents do not amend themselves.
 
-This repository is separate from any deployed Facebook worker. Credentials, account-specific connection settings, request histories and live media do not belong in this public repository.
+This repository is separate from any deployed Facebook worker. Credentials, adopter-specific provider identities, account-specific connection settings, request histories and live media do not belong in this public repository.
 
 ## Status
 
