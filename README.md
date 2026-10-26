@@ -15,4 +15,4 @@ This repository is separate from any deployed Facebook worker. Credentials, acco
 
 ## Status
 
-SDD is initialized at Internal assurance and the constitution is approved. [Change 0001](specs/changes/0001-service-executor/proposal.md) records the scope, with [draft requirements](specs/changes/0001-service-executor/spec-delta.md) ready for clarification. Design and implementation are pending their SDD phases and approvals; the Facebook template currently contains design input only.
+SDD is initialized at Internal assurance and the constitution is approved. [Change 0001](specs/changes/0001-service-executor/proposal.md) is in clarification: [draft requirements](specs/changes/0001-service-executor/spec-delta.md) cover the lifecycle and templates, and [review round 1](specs/changes/0001-service-executor/clarifications.md) retains one pending operator decision about temporary email unavailability before posting. Design and implementation are pending their SDD phases and approvals; the Facebook template currently contains design input only.

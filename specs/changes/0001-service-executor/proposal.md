@@ -4,7 +4,7 @@ title: Self-contained four-stage service executor and Facebook template
 type: feature
 size: standard
 assurance: internal
-status: draft
+status: clarifying
 capabilities: service-executor=EXEC
 created: 2026-10-26
 ---
@@ -35,7 +35,8 @@ The operator must be able to define more services in fresh sessions with predict
   - Credentials, private connection settings, live request histories, logs or media in the public repository.
 
 ## Open questions
-- None at specification stage. The four-stage model, self-contained authored instruction boundary, Internal assurance and operator-only customization were explicitly supplied or approved by Sam. The known gaps distinguish package isolation from host/system policies and live capability verification.
+- Q1 [NEEDS CLARIFICATION: If configured communication provider is temporarily unavailable but all Facebook posting checks pass, should the template continue posting with pending notification, or hold posting until email is restored?]
+- This decision belongs to the Facebook acceptance/report injections, not a hardcoded generic executor rule. Missing required reporting configuration remains distinct from a temporarily unavailable configured service.
 
 ## Amendments
 <!-- Spec changes after the spec gate, one line each, then `sdd.py approve amend`:
