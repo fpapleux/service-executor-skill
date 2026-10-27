@@ -218,3 +218,228 @@ Proposed suite: `python3 -m unittest discover -s tests -v`. Keep structural chec
   - green: Ran 1 test; OK (reviewed guided synthetic evidence; tests/evidence/task-runs.txt)
 
 All tasks preserve the locked requirements and four known gaps. Fold fixture setup and structural checks into the first task that needs them. After the last task, run the full suite, inspect the public diff for private settings/identities, and hand off to `$sdd verify`; do not activate an executor or perform live service actions.
+
+### Verification round 1: behavioral evidence corrections
+
+These tasks close evidence gaps in the existing approved design. Keep the Markdown package; use isolated temporary files, existing tools and synthetic observations. Do not add a runtime engine, simulator service, live browser, account action or transport. Existing decision-response traces remain useful interpretation evidence, not proof of executed effects or state preservation.
+
+- [ ] T43 REQ-EXEC-001.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T44 REQ-EXEC-001.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T45 REQ-EXEC-001.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T46 REQ-EXEC-001.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T47 REQ-EXEC-001.B1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T48 REQ-EXEC-002.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T49 REQ-EXEC-002.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T50 REQ-EXEC-002.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T51 REQ-EXEC-002.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T52 REQ-EXEC-002.N4 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T53 REQ-EXEC-002.N5 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T54 REQ-EXEC-003.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T55 REQ-EXEC-003.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T56 REQ-EXEC-003.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T57 REQ-EXEC-003.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T58 REQ-EXEC-003.B1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T59 REQ-EXEC-004.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag. Require an unprompted close-out, including observed quiescence and safe release; do not reuse the assisted answer.
+  - test:
+  - red:
+  - green:
+- [ ] T60 REQ-EXEC-004.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T61 REQ-EXEC-004.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T62 REQ-EXEC-004.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T63 REQ-EXEC-004.N4 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T64 REQ-EXEC-004.N5 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T65 REQ-EXEC-004.N6 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T66 REQ-EXEC-005.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T67 REQ-EXEC-005.S2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T68 REQ-EXEC-005.S3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T69 REQ-EXEC-005.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T70 REQ-EXEC-005.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T71 REQ-EXEC-005.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T72 REQ-EXEC-005.N4 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T73 REQ-EXEC-006.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T74 REQ-EXEC-006.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T75 REQ-EXEC-006.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T76 REQ-EXEC-006.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T77 REQ-EXEC-007.S1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T78 REQ-EXEC-007.S2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T79 REQ-EXEC-007.S3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T80 REQ-EXEC-007.N1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T81 REQ-EXEC-007.N2 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T82 REQ-EXEC-007.N3 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T83 REQ-EXEC-007.N4 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T84 REQ-EXEC-007.N5 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T85 REQ-EXEC-007.N6 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
+- [ ] T86 REQ-EXEC-007.B1 Demonstrate the complete Then with an offline agent application
+  - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
+  - test:
+  - red:
+  - green:
