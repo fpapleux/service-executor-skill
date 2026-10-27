@@ -1,0 +1,112 @@
+test_REQ_EXEC_001_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N1) ... ok
+test_REQ_EXEC_001_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N2) ... ok
+test_REQ_EXEC_001_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N3) ... ok
+test_REQ_EXEC_001_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_B1) ... ok
+test_REQ_EXEC_002_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_S1) ... ok
+test_REQ_EXEC_002_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N1) ... FAIL
+test_REQ_EXEC_002_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N2) ... ok
+test_REQ_EXEC_002_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N3) ... FAIL
+test_REQ_EXEC_002_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N4) ... FAIL
+test_REQ_EXEC_002_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N5) ... ok
+test_REQ_EXEC_003_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_S1) ... ok
+test_REQ_EXEC_003_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N1) ... ok
+test_REQ_EXEC_003_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N2) ... ok
+test_REQ_EXEC_003_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N3) ... FAIL
+test_REQ_EXEC_003_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_B1) ... ok
+test_REQ_EXEC_004_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_S1) ... FAIL
+test_REQ_EXEC_004_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N1) ... ok
+test_REQ_EXEC_004_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N3) ... ok
+test_REQ_EXEC_004_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N4) ... ok
+test_REQ_EXEC_004_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N5) ... ok
+test_REQ_EXEC_005_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S1) ... FAIL
+test_REQ_EXEC_005_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S2) ... ok
+test_REQ_EXEC_005_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S3) ... ok
+test_REQ_EXEC_005_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N1) ... ok
+test_REQ_EXEC_005_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N2) ... ok
+test_REQ_EXEC_005_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N3) ... ok
+test_REQ_EXEC_005_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N4) ... ok
+test_REQ_EXEC_006_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_S1) ... ok
+test_REQ_EXEC_006_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N1) ... ok
+test_REQ_EXEC_006_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N2) ... ok
+test_REQ_EXEC_006_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N3) ... ok
+test_REQ_EXEC_007_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S1) ... ok
+test_REQ_EXEC_007_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S2) ... ok
+test_REQ_EXEC_007_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S3) ... ok
+test_REQ_EXEC_007_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N1) ... ok
+test_REQ_EXEC_007_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N2) ... ok
+test_REQ_EXEC_007_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N3) ... ok
+test_REQ_EXEC_007_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N4) ... ok
+test_REQ_EXEC_007_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N5) ... ok
+test_REQ_EXEC_007_N6 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N6) ... ok
+test_REQ_EXEC_007_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_B1) ... ok
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 84, in check
+    self.assertIn('reject',new_text)
+AssertionError: 'reject' not found in '[{"event_id": "0dc71de45f4e42c18eb00b747baed7a8", "observed_at": "2026-10-27t06:50:59.764119+00:00", "request_id": "r1", "owner_token": "647245d36bce4c9882d4f8a7342daaef", "stage": "validate", "event": "incomplete-service-definition", "outcome": "blocked", "evidence": ["<repository>/tests/evidence/offline/req-exec-002.n1/template/readme.md"], "next_action": "operator supplies missing report injection; no invented report procedure"}]req-exec-002.n1 / r1 blocked: incomplete-service-definition. readme declares report.md, which is absent. no acceptance, export, or invented portal report. operator must supply the missing report injection. this session reply communicates the gap; delivery/read unconfirmed.\n'
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 84, in check
+    self.assertIn('reject',new_text)
+AssertionError: 'reject' not found in '[{"event_id": "e90604ea5b6a45d9b07f787d905843f1", "observed_at": "2026-10-27t06:51:27.833397+00:00", "request_id": "r1", "owner_token": "c28f8de5ae294405afbbf53c97c8532a", "stage": "validate", "event": "external-instruction-dependency", "outcome": "blocked", "evidence": [], "next_action": "operator repairs service definition outside executor", "reason": "execute.md links escaped.md whose canonical target is outside selected template and package"}, {"event_id": "750a066f0d3d458285ed5a93f2403717", "observed_at": "2026-10-27t06:51:27.833537+00:00", "request_id": "r1", "owner_token": "c28f8de5ae294405afbbf53c97c8532a", "stage": "report", "event": "intent", "outcome": "pending", "evidence": [], "next_action": "operator repairs service definition outside executor", "obligation_id": "r1-definition-blocker", "attempt_id": "report-1", "content": {"request_id": "r1", "outcome": "blocked", "reason": "external-instruction-dependency: execute.md links escaped.md whose canonical target is outside selected template and package", "confirmed_effects": [], "required_intervention": "repair selected service definition through operator route.", "incident_id": "r1-definition-blocker"}}, {"event_id": "5c66ce3c1e6b44e3a22b35625d588d53", "observed_at": "2026-10-27t06:51:27.868733+00:00", "request_id": "r1", "owner_token": "c28f8de5ae294405afbbf53c97c8532a", "stage": "report", "event": "submission-observed", "outcome": "submitted", "evidence": [], "next_action": "operator repairs service definition outside executor", "obligation_id": "r1-definition-blocker", "attempt_id": "report-1", "native_evidence": "evidence/definition-report.json"}]req-exec-002.n3 / r1 blocked: external-instruction-dependency. execute.md links escaped.md whose canonical target is outside selected template and package. no export or self-edit. portal acknowledged blocker-report submission; delivery/read unconfirmed. evidence: state/requests/r1/evidence/definition-report.json.\n'
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 84, in check
+    self.assertIn('reject',new_text)
+AssertionError: 'reject' not found in '[{"event_id": "7bb773110d0b461093e233cd5dc98ec9", "observed_at": "2026-10-27t06:51:27.869634+00:00", "request_id": "r1", "owner_token": "d0e9e5b4a329459c8b417587dd8b1be6", "stage": "validate", "event": "conflicting-service-definition", "outcome": "blocked", "evidence": [], "next_action": "operator repairs service definition outside executor", "reason": "execute.md directs bypassing acceptance and amending generic lifecycle"}, {"event_id": "cf4af37a8bca438fb22335c004d6e7f5", "observed_at": "2026-10-27t06:51:27.869759+00:00", "request_id": "r1", "owner_token": "d0e9e5b4a329459c8b417587dd8b1be6", "stage": "report", "event": "intent", "outcome": "pending", "evidence": [], "next_action": "operator repairs service definition outside executor", "obligation_id": "r1-definition-blocker", "attempt_id": "report-1", "content": {"request_id": "r1", "outcome": "blocked", "reason": "conflicting-service-definition: execute.md directs bypassing acceptance and amending generic lifecycle", "confirmed_effects": [], "required_intervention": "repair selected service definition through operator route.", "incident_id": "r1-definition-blocker"}}, {"event_id": "b8abf9c80a064b929bad1328ab073563", "observed_at": "2026-10-27t06:51:27.906266+00:00", "request_id": "r1", "owner_token": "d0e9e5b4a329459c8b417587dd8b1be6", "stage": "report", "event": "submission-observed", "outcome": "submitted", "evidence": [], "next_action": "operator repairs service definition outside executor", "obligation_id": "r1-definition-blocker", "attempt_id": "report-1", "native_evidence": "evidence/definition-report.json"}]req-exec-002.n4 / r1 blocked: conflicting-service-definition. execute.md directs bypassing acceptance and amending generic lifecycle. no export or self-edit. portal acknowledged blocker-report submission; delivery/read unconfirmed. evidence: state/requests/r1/evidence/definition-report.json.\n'
+
+======================================================================
+FAIL: test_REQ_EXEC_003_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 122, in check
+    self.assertTrue(any(word in report_text for word in ['write','append','persist','mkdir']))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_REQ_EXEC_004_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 125, in check
+    self.assertIn('release',new_text)
+AssertionError: 'release' not found in '[{"event_id": "c584f744feb644d2918759dc684a8f35", "observed_at": "2026-10-27t06:49:18.711101+00:00", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "validate", "event": "validated", "outcome": "accepted", "target": "effects/export.txt", "action": "export source.txt", "evidence": ["binding/identities.json"], "next_action": "report decision"}, {"event_id": "b469a8199a904bc39919cb2bc6a2b002", "observed_at": "2026-10-27t06:49:18.711101+00:00", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "accept/reject", "event": "accepted", "outcome": "accepted", "target": "effects/export.txt", "action": "export source.txt", "evidence": ["binding/identities.json"], "next_action": "report decision"}, {"event_id": "2adaababb15849ad84152571cd8b5231", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "report", "event": "intent", "outcome": "pending", "incident_id": "decision-r1", "attempt_id": "d1", "content": {"request_id": "r1", "outcome": "accepted", "reason": "exact authorized readable source export accepted", "confirmed_effects": [], "required_intervention": null, "incident_id": "decision-r1"}, "next_action": "submit report"}, {"event_id": "1dc37b7ba1d548ac8fd4c992342c3955", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "report", "event": "observed", "outcome": "submitted", "incident_id": "decision-r1", "evidence": ["evidence/decision.json"], "next_action": "export"}, {"event_id": "58bbc1b87d6f4c51aacb464fc9582415", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "execute", "event": "intent", "outcome": "pending", "attempt_id": "a1", "action": "export", "target": "effects/export.txt", "next_action": "submit"}, {"event_id": "85e3582220554feea774cdd18247faf9", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "execute", "event": "observed", "outcome": "completed", "attempt_id": "a1", "evidence": ["evidence/export.json"], "next_action": "report completion"}, {"event_id": "0deac5b4b16342599da4fe68082237e9", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "report", "event": "intent", "outcome": "pending", "attempt_id": "c1", "incident_id": "completion-r1", "content": {"request_id": "r1", "outcome": "completed", "reason": "native export acknowledged", "confirmed_effects": ["a"], "required_intervention": null, "incident_id": "completion-r1"}, "next_action": "submit"}, {"event_id": "3c36893e9e914777b97202ccb98f46b1", "request_id": "r1", "owner_token": "e4133ca763964d678d03c61353b86738", "stage": "report", "event": "observed", "outcome": "submitted", "incident_id": "completion-r1", "evidence": ["evidence/completion.json"], "next_action": "none"}]r1 completed: native export a confirmed; decision and completion reports acknowledged as submitted. delivery and reading unknown.\n'
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>/tests/test_offline_remaining.py", line 252, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "<repository>/tests/test_offline_remaining.py", line 168, in check
+    self.assertIn('portal-r1',new_text)
+AssertionError: 'portal-r1' not found in '[{"observed_at": "2026-10-27t06:50:46.083992+00:00", "request_id": "r1", "owner_token": "ab79354a0d32444cbe6ebcc0e4864159", "event_id": "e512d8fd74bb4dbc847b8930bbdf91e4", "stage": "report", "event": "intent", "outcome": "pending", "incident_id": "i1", "attempt_id": "n1", "content": {"incident_id": "i1", "attempt_id": "n1", "request_id": "r1", "outcome": "completed", "confirmed_effects": ["native-a"], "reason": "recorded prior outcome", "required_intervention": null}, "evidence": ["evidence/prior.json", "binding/identities.json"], "next_action": "submit retained i1 only; confirmed native-a retained"}, {"observed_at": "2026-10-27t06:50:46.083992+00:00", "request_id": "r1", "owner_token": "ab79354a0d32444cbe6ebcc0e4864159", "event_id": "285591b7586645229dd6c971f194d588", "stage": "report", "event": "observed", "outcome": "submitted", "incident_id": "i1", "attempt_id": "n1", "evidence": ["evidence/report-i1.json"], "next_action": "none; confirmed task retained"}]r1 confirmed native-a retained; pending report i1 submitted with portal acknowledgement. no task replay. delivery and reading unknown.\n'
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.045s
+
+FAILED (failures=6)

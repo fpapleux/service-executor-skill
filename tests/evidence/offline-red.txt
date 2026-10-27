@@ -1,0 +1,650 @@
+test_REQ_EXEC_001_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_B1) ... FAIL
+test_REQ_EXEC_001_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N1) ... FAIL
+test_REQ_EXEC_001_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N2) ... FAIL
+test_REQ_EXEC_001_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N3) ... FAIL
+test_REQ_EXEC_002_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N1) ... FAIL
+test_REQ_EXEC_002_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N2) ... FAIL
+test_REQ_EXEC_002_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N3) ... FAIL
+test_REQ_EXEC_002_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N4) ... FAIL
+test_REQ_EXEC_002_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N5) ... FAIL
+test_REQ_EXEC_002_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_S1) ... FAIL
+test_REQ_EXEC_003_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_B1) ... FAIL
+test_REQ_EXEC_003_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N1) ... FAIL
+test_REQ_EXEC_003_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N2) ... FAIL
+test_REQ_EXEC_003_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N3) ... FAIL
+test_REQ_EXEC_003_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_S1) ... FAIL
+test_REQ_EXEC_004_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N1) ... FAIL
+test_REQ_EXEC_004_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N2) ... FAIL
+test_REQ_EXEC_004_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N3) ... FAIL
+test_REQ_EXEC_004_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N4) ... FAIL
+test_REQ_EXEC_004_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N5) ... FAIL
+test_REQ_EXEC_004_N6 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N6) ... FAIL
+test_REQ_EXEC_004_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_S1) ... FAIL
+test_REQ_EXEC_005_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N1) ... FAIL
+test_REQ_EXEC_005_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N2) ... FAIL
+test_REQ_EXEC_005_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N3) ... FAIL
+test_REQ_EXEC_005_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N4) ... FAIL
+test_REQ_EXEC_005_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S1) ... FAIL
+test_REQ_EXEC_005_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S2) ... FAIL
+test_REQ_EXEC_005_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S3) ... FAIL
+test_REQ_EXEC_006_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N1) ... FAIL
+test_REQ_EXEC_006_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N2) ... FAIL
+test_REQ_EXEC_006_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N3) ... FAIL
+test_REQ_EXEC_006_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_S1) ... FAIL
+test_REQ_EXEC_007_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_B1) ... FAIL
+test_REQ_EXEC_007_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N1) ... FAIL
+test_REQ_EXEC_007_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N2) ... FAIL
+test_REQ_EXEC_007_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N3) ... FAIL
+test_REQ_EXEC_007_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N4) ... FAIL
+test_REQ_EXEC_007_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N5) ... FAIL
+test_REQ_EXEC_007_N6 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N6) ... FAIL
+test_REQ_EXEC_007_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S1) ... FAIL
+test_REQ_EXEC_007_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S2) ... FAIL
+test_REQ_EXEC_007_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S3) ... FAIL
+
+======================================================================
+FAIL: test_REQ_EXEC_001_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_B1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_001_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_001_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_001_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_001_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_N5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_002_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_002_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_003_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_B1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_003_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_003_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_003_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_003_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_003_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_N6 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_N6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_004_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_004_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_005_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_005_S3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_006_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_006_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_006_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_006_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_006_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_B1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_B1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N4 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N5 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_N6 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_N6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_S1 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_S2 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+======================================================================
+FAIL: test_REQ_EXEC_007_S3 (test_offline_remaining.OfflineRemaining.test_REQ_EXEC_007_S3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_offline_remaining.py", line 249, in test
+    def test(self): self.check(sid)
+                    ^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 39, in check
+    case, events, observed, calls, reply = self.artifacts(sid)
+                                           ^^^^^^^^^^^^^^^^^^^
+  File "tests/test_offline_remaining.py", line 35, in artifacts
+    self.assertTrue(observed or reply, 'No actual executor observation/result')
+AssertionError: '' is not true : No actual executor observation/result
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.045s
+
+FAILED (failures=43)

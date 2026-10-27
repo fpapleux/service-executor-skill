@@ -223,223 +223,223 @@ All tasks preserve the locked requirements and four known gaps. Fold fixture set
 
 These tasks close evidence gaps in the existing approved design. Keep the Markdown package; use isolated temporary files, existing tools and synthetic observations. Do not add a runtime engine, simulator service, live browser, account action or transport. Existing decision-response traces remain useful interpretation evidence, not proof of executed effects or state preservation.
 
-- [ ] T43 REQ-EXEC-001.S1 Demonstrate the complete Then with an offline agent application
+- [x] T43 REQ-EXEC-001.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T44 REQ-EXEC-001.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_application.py::test_REQ_EXEC_001_S1_actual_export
+  - red: AssertionError: False is not true : Authorized export did not produce its actual offline effect
+  - green: Ran 1 test in 0.001s; OK. Actual native export/report calls, persisted journal ordering and exported bytes inspected; no saved pass flag used.
+- [x] T44 REQ-EXEC-001.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T45 REQ-EXEC-001.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_001_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T45 REQ-EXEC-001.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T46 REQ-EXEC-001.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_001_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T46 REQ-EXEC-001.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T47 REQ-EXEC-001.B1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_001_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T47 REQ-EXEC-001.B1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T48 REQ-EXEC-002.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_001_B1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T48 REQ-EXEC-002.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T49 REQ-EXEC-002.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_S1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T49 REQ-EXEC-002.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T50 REQ-EXEC-002.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T50 REQ-EXEC-002.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T51 REQ-EXEC-002.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T51 REQ-EXEC-002.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T52 REQ-EXEC-002.N4 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK; kernel IN_OPEN/IN_ACCESS audit observed zero external-target events (tests/evidence/offline-task-runs.txt)
+- [x] T52 REQ-EXEC-002.N4 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T53 REQ-EXEC-002.N5 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_N4
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T53 REQ-EXEC-002.N5 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T54 REQ-EXEC-003.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_002_N5
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T54 REQ-EXEC-003.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T55 REQ-EXEC-003.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_003_S1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T55 REQ-EXEC-003.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T56 REQ-EXEC-003.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_003_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T56 REQ-EXEC-003.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T57 REQ-EXEC-003.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_003_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T57 REQ-EXEC-003.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T58 REQ-EXEC-003.B1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_003_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T58 REQ-EXEC-003.B1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T59 REQ-EXEC-004.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_003_B1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T59 REQ-EXEC-004.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag. Require an unprompted close-out, including observed quiescence and safe release; do not reuse the assisted answer.
-  - test:
-  - red:
-  - green:
-- [ ] T60 REQ-EXEC-004.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_S1
+  - red: AssertionError: 'release' not found in actual executor journal (tests/evidence/offline-first-application.txt); fresh isolated trial after records-guide correction
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T60 REQ-EXEC-004.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T61 REQ-EXEC-004.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T61 REQ-EXEC-004.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T62 REQ-EXEC-004.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK; real two-agent kernel contention and native/journal cross-checks (tests/evidence/offline-task-runs.txt)
+- [x] T62 REQ-EXEC-004.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T63 REQ-EXEC-004.N4 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T63 REQ-EXEC-004.N4 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T64 REQ-EXEC-004.N5 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N4
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T64 REQ-EXEC-004.N5 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T65 REQ-EXEC-004.N6 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N5
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T65 REQ-EXEC-004.N6 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T66 REQ-EXEC-005.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_004_N6
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK; real two-agent kernel contention and native/journal cross-checks (tests/evidence/offline-task-runs.txt)
+- [x] T66 REQ-EXEC-005.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T67 REQ-EXEC-005.S2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_S1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T67 REQ-EXEC-005.S2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T68 REQ-EXEC-005.S3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_S2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T68 REQ-EXEC-005.S3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T69 REQ-EXEC-005.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_S3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T69 REQ-EXEC-005.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T70 REQ-EXEC-005.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T70 REQ-EXEC-005.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T71 REQ-EXEC-005.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T71 REQ-EXEC-005.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T72 REQ-EXEC-005.N4 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T72 REQ-EXEC-005.N4 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T73 REQ-EXEC-006.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_005_N4
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T73 REQ-EXEC-006.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T74 REQ-EXEC-006.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_006_S1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T74 REQ-EXEC-006.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T75 REQ-EXEC-006.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_006_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T75 REQ-EXEC-006.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T76 REQ-EXEC-006.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_006_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T76 REQ-EXEC-006.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T77 REQ-EXEC-007.S1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_006_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T77 REQ-EXEC-007.S1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T78 REQ-EXEC-007.S2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_S1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T78 REQ-EXEC-007.S2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T79 REQ-EXEC-007.S3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_S2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T79 REQ-EXEC-007.S3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T80 REQ-EXEC-007.N1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_S3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T80 REQ-EXEC-007.N1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T81 REQ-EXEC-007.N2 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T81 REQ-EXEC-007.N2 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T82 REQ-EXEC-007.N3 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N2
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T82 REQ-EXEC-007.N3 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T83 REQ-EXEC-007.N4 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N3
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T83 REQ-EXEC-007.N4 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T84 REQ-EXEC-007.N5 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N4
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T84 REQ-EXEC-007.N5 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T85 REQ-EXEC-007.N6 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N5
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T85 REQ-EXEC-007.N6 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
-- [ ] T86 REQ-EXEC-007.B1 Demonstrate the complete Then with an offline agent application
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_N6
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)
+- [x] T86 REQ-EXEC-007.B1 Demonstrate the complete Then with an offline agent application
   - Scope: Supply the concrete Given as local fixtures and actual selected injections/configuration; have the agent perform the When using existing tools or explicitly logged stub calls. Assert the resulting records, observable calls/outcomes and every preservation/no-effect clause against the original Then, independently of a saved reviewer pass flag.
-  - test:
-  - red:
-  - green:
+  - test: tests/test_offline_remaining.py::test_REQ_EXEC_007_B1
+  - red: AssertionError: No actual executor observation/result (tests/evidence/offline-red.txt; concrete inputs were present)
+  - green: Ran 1 test; OK (tests/evidence/offline-task-runs.txt)

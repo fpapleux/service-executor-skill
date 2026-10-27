@@ -11,3 +11,9 @@ logs/
 __pycache__/
 .pytest_cache/
 .venv/
+
+# Locally expanded synthetic evidence; the retained archive is versioned.
+tests/evidence/offline/
+tests/evidence/offline-retest/
+tests/evidence/offline-read-audit/
+tests/evidence/interpreted-package/

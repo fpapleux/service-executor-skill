@@ -18,7 +18,7 @@ Executors file separate improvement requests and never amend their own process. 
 
 ## Verification and development
 
-Run `python3 -m unittest discover -s tests -v`. Artifact checks, an OS-lock primitive exercise and retained reviewed agent-decision exercises are different evidence types; see [tests/README.md](tests/README.md) for scope and reruns. The unit command validates retained exercise evidence and its instruction identities; it does not invoke a model or run a live service.
+Run `python3 -m unittest discover -s tests -v`. Package checks, OS-lock/native-double checks, actual offline application artifacts and historical decision-response exercises are different evidence types; see [tests/README.md](tests/README.md) for scope and reruns. The unit command validates retained application artifacts, historical exercise evidence and instruction identities; it does not invoke a model or run a live service.
 
 [SDD change 0001](specs/changes/0001-service-executor/proposal.md) records the approved specification and plan. Implementation is subject to the separate SDD verification/results gate. No live Facebook/account/upload/scheduling/communication readiness is certified by this package.
 

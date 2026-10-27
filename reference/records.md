@@ -51,7 +51,13 @@ Acquire the request lock first, then required resource locks without waiting whi
 
 Lock availability does not settle old remote operations. Release/handover is safe only after establishing no former-owner operation can still mutate the resource: observe tool completion or stop the relevant operation through existing authorized controls and verify it stopped. Elapsed time or a dead local process is insufficient for a still-active browser/remote operation. Otherwise hold the resource and escalate the uncertainty.
 
-Preserve unresolved outcomes and replay/dependency holds even after safe handover. This is cooperative agent guidance, not an external technical fencing service.
+Before relinquishing ownership, append an explicit close-out event while the request/resource locks and owner token are still current. Its record must contain:
+- the resource(s) being released and current owner token;
+- observed operation-completion or verified-stop evidence showing no prior-owner operation can still mutate them;
+- unresolved effects, replay/dependency holds and pending communication, including an explicit empty list when none remain;
+- the next action for the next owner, or completion if none remains.
+
+Then release the resource/request locks without further protected writes. Process exit or automatic lock cleanup does not replace this durable close-out record. If quiescence cannot be established, record the resource hold and required intervention instead of a release. Preserve unresolved outcomes and replay/dependency holds even after safe handover. This is cooperative agent guidance, not an external technical fencing service.
 
 ## Intent and reconciliation
 

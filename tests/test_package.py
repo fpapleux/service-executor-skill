@@ -38,6 +38,15 @@ def local_closure(root, entry):
 
 
 class PackageTests(unittest.TestCase):
+    def test_current_release_is_bound_to_application_evidence(self):
+        manifest = ROOT / 'tests/evidence/offline-release-binding.json'
+        self.assertTrue(manifest.is_file(), 'Current release is not bound to application evidence')
+        identities = json.loads(manifest.read_text())
+        self.assertEqual(set(RUNTIME), set(identities))
+        for name, digest in identities.items():
+            self.assertEqual(digest, hashlib.sha256((ROOT / name).read_bytes()).hexdigest(),
+                             'Runtime guidance changed: refresh affected offline applications')
+
     def test_required_runtime_artifacts_exist(self):
         self.assertEqual([], [p for p in RUNTIME if not (ROOT / p).is_file()],
                          'Self-contained runtime package is incomplete')

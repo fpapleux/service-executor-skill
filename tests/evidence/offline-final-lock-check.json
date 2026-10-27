@@ -1,0 +1,362 @@
+[
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N4/state/locks/request-R1.lock",
+    "observed_ns": 1793085838019404002,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838019545987,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S2/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838019585447,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838019681058,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838019708714,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838019795875,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.B1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838019896096,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.B1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838019930457,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N6/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020046042,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N6/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020074188,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.B1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020163863,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.B1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020191170,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020275118,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020302216,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020383859,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N2/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020409700,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.S1/state/locks/resource-synthetic-export-profile.lock",
+    "observed_ns": 1793085838020501260,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020529825,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020618103,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020645690,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020735644,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020816519,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N3/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838020841801,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838020932872,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021016750,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N2/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021042451,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N6/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021126888,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N6/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021153078,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021230810,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N3/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021256022,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021332986,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021418820,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021493828,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021573446,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.N3/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021598309,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N5/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021674993,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N5/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021698879,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021781709,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N4/state/locks/request-R1.lock",
+    "observed_ns": 1793085838021859301,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N4/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838021898272,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N2/state/locks/request-R2.lock",
+    "observed_ns": 1793085838021986061,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022012810,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N2/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022038162,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N5/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022161360,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N5/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022186642,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022261650,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022287282,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N4/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022363338,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.N4/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022388550,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022464326,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022538217,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S3/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022563918,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.B1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022636552,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.B1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022665187,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.S2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022741103,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022816390,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-007.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838022841533,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-004.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838022927506,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023003981,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-006.N1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838023028774,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-001.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023121033,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023201698,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-003.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838023226561,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-002.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023302687,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023377416,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.N2/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023450748,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.S3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023525617,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.S3/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838023550829,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline/REQ-EXEC-005.N4/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023624161,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline-retest/REQ-EXEC-004.S1/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023772781,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline-retest/REQ-EXEC-004.S1/state/locks/resource-shared.lock",
+    "observed_ns": 1793085838023801904,
+    "kernel_result": "available"
+  },
+  {
+    "path": "tests/evidence/offline-read-audit/REQ-EXEC-002.N3/state/locks/request-R1.lock",
+    "observed_ns": 1793085838023932645,
+    "kernel_result": "available"
+  }
+]

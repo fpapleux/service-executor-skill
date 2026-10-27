@@ -9,6 +9,7 @@ import json
 import os
 from pathlib import Path
 import unittest
+from evidence_store import evidence_root
 
 ROOT = Path(__file__).resolve().parents[1]
 PHASE = os.environ.get('EXERCISE_PHASE', 'green')
@@ -39,7 +40,7 @@ def case_test(case):
             self.assertEqual(review['trace_sha256'], hashlib.sha256(trace.read_bytes()).hexdigest())
             manifest = json.loads((ROOT / 'tests/evidence/package-binding.json').read_text())
             for name, digest in manifest.items():
-                self.assertEqual(digest, hashlib.sha256((ROOT / name).read_bytes()).hexdigest(),
+                self.assertEqual(digest, hashlib.sha256((evidence_root() / 'interpreted-package' / name).read_bytes()).hexdigest(),
                                  'Guidance changed: rerun controlled exercises')
     return test
 
